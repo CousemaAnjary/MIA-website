@@ -1,0 +1,18 @@
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",                       // Définir la racine
+    "paths": {
+      "@/*": ["resources/js/*"]            // Alias pour les imports
+    }
+  },
+  "include": ["resources/js/**/*"]
+}
