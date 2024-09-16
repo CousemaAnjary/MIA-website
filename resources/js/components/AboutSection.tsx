@@ -41,35 +41,35 @@ export default function AboutSection() {
 
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1" className='mb-3'>
-                            <AccordionTrigger className="bg-white  p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-1')}>
+                            <AccordionTrigger className="bg-white border  p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-1')}>
                                 Quels services comptables proposez-nous ?
                                 <span className="ml-2">
                                     {openItem === 'item-1' ? <FiMinus /> : <FiPlus />}
                                 </span>
                             </AccordionTrigger>
-                            <AccordionContent className='p-5'>
+                            <AccordionContent className='p-5 text-black font-normal text-base'>
                                 Nous offrons des services complets : récupération et traitement des pièces comptables, révision des comptes, lettrage, rapprochement bancaire et établissement du bilan annuel.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2" className='mb-3'>
-                            <AccordionTrigger className="bg-white p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-2')}>
+                            <AccordionTrigger className="bg-white border p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-2')}>
                                 Quelles solutions fiscales mettez-nous en place ?
                                 <span className="ml-2">
                                     {openItem === 'item-2' ? <FiMinus /> : <FiPlus />}
                                 </span>
                             </AccordionTrigger>
-                            <AccordionContent className='p-5'>
+                            <AccordionContent className='p-5 text-black font-normal text-base'>
                                 Nous nous occupons de la préparation et de la télédéclaration de la TVA, de la liasse fiscale, des annexes et plaquettes, ainsi que de l'envoi des déclarations fiscales (DAS2).
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3" className='mb-3'>
-                            <AccordionTrigger className="bg-white p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-3')}>
+                            <AccordionTrigger className="bg-white border p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-3')}>
                                 Quels sont nos services administratifs ?
                                 <span className="ml-2">
                                     {openItem === 'item-3' ? <FiMinus /> : <FiPlus />}
                                 </span>
                             </AccordionTrigger>
-                            <AccordionContent className='p-5'>
+                            <AccordionContent className='p-5 text-black font-normal text-base'>
                                 Nous proposons des services de saisie de données, de service après-vente, de relance clients, d'assistanat virtuel et de facturation clients, ainsi que d'autres tâches administratives sur demande.
                             </AccordionContent>
                         </AccordionItem>
