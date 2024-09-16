@@ -14,8 +14,8 @@ export default function HeroSection() {
      */
     return (
         <>
-            <div className="relative bg-slate-400 flex flex-col items-start justify-start text-start text-white px-4">
-                <h1 className="text-5xl font-bold">
+            <div className="relative  flex flex-col mt-32 text-white p-4 mx-32">
+                <h1 className="text-6xl font-bold">
                     Simplifiez Votre Comptabilité <br /> et Développez Votre Entreprise.
                 </h1>
                 <p className="text-lg mt-4 max-w-2xl">
