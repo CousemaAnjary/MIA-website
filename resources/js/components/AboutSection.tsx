@@ -27,7 +27,10 @@ export default function AboutSection() {
             <div className=" relative bg-slate-50 px-40 py-20 flex ">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-2">À propos de nous</h3>
+                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-2 flex items-center">
+                        <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                        À propos de nous
+                    </h3>
                     <h2 className="text-4xl font-bold mb-4">
                         MIA, votre partenaire digital pour une comptabilité simplifiée
                     </h2>
