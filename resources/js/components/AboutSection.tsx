@@ -17,7 +17,7 @@ export default function AboutSection() {
      */
     return (
         <>
-            <div className=" relative  my-10 px-10 py-14 flex mx-20">
+            <div className=" relative bg-slate-50 px-40 py-20 flex ">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
                     <h3 className="text-blue-600 font-mono font-semibold text-xl uppercase mb-2">À propos de nous</h3>
@@ -31,22 +31,21 @@ export default function AboutSection() {
                     <div className="space-y-4">
                         <Accordion type="single" collapsible className="w-full">
                             <AccordionItem value="item-1">
-                                <AccordionTrigger>Is it accessible?</AccordionTrigger>
-                                <AccordionContent>
-                                    Yes. It adheres to the WAI-ARIA design pattern.
+                                <AccordionTrigger className="bg-white p-4 transition-colors data-[state=open]:bg-blue-500 data-[state=open]:text-white decoration-transparent">Quels services comptables proposez-vous ?</AccordionTrigger>
+                                <AccordionContent className='p-5'>
+                                    Nous offrons des services complets : récupération et traitement des pièces comptables, révision des comptes, lettrage, rapprochement bancaire et établissement du bilan annuel.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-2">
-                                <AccordionTrigger>Is it styled?</AccordionTrigger>
-                                <AccordionContent>
-                                    Yes. It comes with default styles that matches the other
-                                    components&apos; aesthetic.
+                                <AccordionTrigger className="bg-white p-4 transition-colors data-[state=open]:bg-blue-500 data-[state=open]:text-white decoration-transparent">Quelles solutions fiscales mettez-vous en place ?</AccordionTrigger>
+                                <AccordionContent className='p-5'>
+                                    Nous nous occupons de la préparation et de la télédéclaration de la TVA, de la liasse fiscale, des annexes et plaquettes, ainsi que de l'envoi des déclarations fiscales (DAS2).
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-3">
-                                <AccordionTrigger>Is it animated?</AccordionTrigger>
-                                <AccordionContent>
-                                    Yes. It's animated by default, but you can disable it if you prefer.
+                                <AccordionTrigger className="bg-white p-4 transition-colors data-[state=open]:bg-blue-500 data-[state=open]:text-white decoration-transparent">Quels sont vos services administratifs ?</AccordionTrigger>
+                                <AccordionContent className='p-5'>
+                                    Nous proposons des services de saisie de données, de service après-vente, de relance clients, d'assistanat virtuel et de facturation clients, ainsi que d'autres tâches administratives sur demande.
                                 </AccordionContent>
                             </AccordionItem>
                         </Accordion>
