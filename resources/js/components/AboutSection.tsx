@@ -16,12 +16,12 @@ export default function AboutSection() {
      */
     return (
         <>
-            <div className="container mx-auto my-10 px-4 flex flex-col md:flex-row items-center">
+            <div className=" relative  my-10 px-10 py-14 flex mx-20">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
-                    <h3 className="text-blue-600 font-bold uppercase mb-2">À propos de nous</h3>
+                    <h3 className="text-blue-600 font-mono font-semibold text-xl uppercase mb-2">À propos de nous</h3>
                     <h2 className="text-4xl font-bold mb-4">
-                        MIA, Comptabilité et bien plus
+                    MIA, votre partenaire digital pour une comptabilité simplifiée
                     </h2>
                     <p className="text-gray-600 mb-6">
                         MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de sous-traitance pour les PME et cabinets comptables. Avec plus de 10 ans d'expérience, nous sommes le partenaire digital idéal pour accompagner la croissance de votre entreprise en France.
