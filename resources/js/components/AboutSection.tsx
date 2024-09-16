@@ -42,7 +42,7 @@ export default function AboutSection() {
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1" className='mb-3'>
                             <AccordionTrigger className="bg-white border  p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-1')}>
-                                Quels services comptables proposez-nous ?
+                                Quels services comptables proposons-nous ?
                                 <span className="ml-2">
                                     {openItem === 'item-1' ? <FiMinus /> : <FiPlus />}
                                 </span>
