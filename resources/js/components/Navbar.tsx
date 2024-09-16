@@ -27,38 +27,38 @@ export default function Navbar() {
                     </div>
 
                     <div className="navbar">
-                        <ul className="flex gap-4 mr-32">
+                        <ul className="flex gap-4 mr-24">
                             <li>
                                 <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <Button variant={"link"} className="font-bold text-base text-white flex items-center gap-2">
                                         <FaInfoCircle /> A propos de nous
                                     </Button>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <Button variant={"link"} className="font-bold text-base text-white flex items-center gap-2">
                                         <FaTasks /> Nos missions
                                     </Button>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <Button variant={"link"} className="font-bold text-base text-white flex items-center gap-2">
                                         <FaGift /> Nos offres
                                     </Button>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <Button variant={"link"} className="font-bold text-base text-white flex items-center gap-2">
                                         <FaHandsHelping /> Nos valeurs
                                     </Button>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <Button variant={"link"} className="font-bold text-base text-white flex items-center gap-2">
                                         <FaCheckCircle /> Nos avantages
                                     </Button>
                                 </Link>
