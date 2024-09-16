@@ -14,7 +14,7 @@ export default function HeroSection() {
      */
     return (
         <>
-            <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <div className="relative bg-slate-400 flex flex-col items-start justify-start text-start text-white px-4">
                 <h1 className="text-5xl font-bold">
                     Simplifiez Votre Comptabilité <br /> et Développez Votre Entreprise.
                 </h1>
@@ -30,10 +30,6 @@ export default function HeroSection() {
                         En Savoir Plus
                     </button>
                 </div>
-                <p className="text-sm mt-8 max-w-lg">
-                    Faites confiance à une équipe humaine et technologique qui comprend vos besoins. <br />
-                    Avec MIA, optimisez la gestion de vos ressources et maximisez votre potentiel de croissance.
-                </p>
             </div>
         </>
     )
