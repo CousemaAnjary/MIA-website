@@ -1,9 +1,10 @@
-import { Link } from "@inertiajs/react";
-import { Button } from "./ui/button";
-import logo from '../assets/images/logo.png';
+import { Button } from "./ui/button"
+import { Link } from "@inertiajs/react"
+import logo from '../assets/images/logo.png'
 
 // Importation des icônes depuis react-icons
-import { FaInfoCircle, FaTasks, FaGift, FaHandsHelping, FaCheckCircle } from 'react-icons/fa';
+import { FaInfoCircle, FaTasks, FaGift, FaHandsHelping, FaCheckCircle } from 'react-icons/fa'
+
 
 export default function Navbar() {
     /**
