@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar"
-import slider from '../assets/images/slider.jpg';
-import HeroSection from "@/components/HeroSection";
+import slider from '../assets/images/slider.jpg'
+import HeroSection from "@/components/HeroSection"
+import AboutSection from "@/components/AboutSection"
 
 
 export default function Home() {
@@ -27,7 +28,12 @@ export default function Home() {
                 </header>
 
                 {/* Contenu */}
-                <main></main>
+                <main>
+                    <section>
+                        {/* A propos de nous */}
+                        <AboutSection />
+                    </section>
+                </main>
 
                 {/* Pied de page */}
                 <footer></footer>
