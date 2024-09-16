@@ -1,5 +1,6 @@
-import { FaGift } from "react-icons/fa";
-import { Button } from "./ui/button";
+import { Button } from "./ui/button"
+import { FaGift } from "react-icons/fa"
+
 
 export default function HeroSection() {
     /**
