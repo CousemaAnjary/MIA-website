@@ -53,7 +53,7 @@ export default function AboutSection() {
                         </AccordionItem>
                         <AccordionItem value="item-2" className='mb-3'>
                             <AccordionTrigger className="bg-white border p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-2')}>
-                                Quelles solutions fiscales mettez-nous en place ?
+                                Quelles solutions fiscales mettons-nous en place ?
                                 <span className="ml-2">
                                     {openItem === 'item-2' ? <FiMinus /> : <FiPlus />}
                                 </span>
