@@ -1,5 +1,6 @@
-import Navbar from "@/components/Navbar";
-import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar"
+import slider from '../assets/images/slider.jpg';
+
 
 export default function Home() {
     /**
@@ -19,7 +20,7 @@ export default function Home() {
         <>
             <div>
                 {/* En-tête */}
-                <header className="">
+                <header className="bg-cover bg-center h-screen relative" style={{ backgroundImage: `url(${slider})` }} >
                     <Navbar />
                 </header>
 
