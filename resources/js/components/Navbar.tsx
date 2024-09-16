@@ -1,5 +1,6 @@
 import { Link } from "@inertiajs/react";
 import { Button } from "./ui/button";
+import logo from '../assets/images/logo.png';
 
 
 export default function Navbar() {
@@ -18,17 +19,17 @@ export default function Navbar() {
      */
     return (
         <>
-            <nav className="container-fluid p-4">
+            <nav className="container-fluid p-4 ">
                 <div className="container flex justify-between items-center">
                     <div className="logo ml-10">
-                        <h1 className="font-mono text-xl font-medium">Logo</h1>
+                        <img className="w-20 " src={logo} alt="logo" />
                     </div>
 
                     <div className="navbar">
                         <ul className="flex gap-2 mr-10">
-                            <li><Link href="#"><Button variant={"ghost"} className="font-semibold font-mono">Dashobard</Button></Link></li>
-                            <li><Link href="#"><Button variant={"ghost"} className="font-semibold font-mono">To-do</Button></Link></li>
-                            <li><Link href="#"><Button variant={"ghost"} className="font-semibold font-mono">Users</Button></Link></li>
+                            <li><Link href="#"><Button variant={"ghost"} className="font-semibold text-white">Dashobard</Button></Link></li>
+                            <li><Link href="#"><Button variant={"ghost"} className="font-semibold text-white">To-do</Button></Link></li>
+                            <li><Link href="#"><Button variant={"ghost"} className="font-semibold text-white">Users</Button></Link></li>
                         </ul>
                     </div>
                 </div>
