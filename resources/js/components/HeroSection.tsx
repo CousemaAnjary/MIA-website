@@ -26,7 +26,7 @@ export default function HeroSection() {
                     "Nous déléguer une partie de vos activités,<br />
                     c'est gagner du temps pour mieux accompagner vos précieux clients."
                 </p>
-                <div className="mt-8 space-x-4">
+                <div className="mt-8 flex items-center space-x-4">
                     <Button variant={"default"} size={"lg"} className="bg-blue-900 hover:bg-blue-800 py-6 px-6 gap-2">
                         <FaGift />   Nos offres
                     </Button>
