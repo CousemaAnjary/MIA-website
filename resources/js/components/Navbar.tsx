@@ -2,6 +2,8 @@ import { Link } from "@inertiajs/react";
 import { Button } from "./ui/button";
 import logo from '../assets/images/logo.png';
 
+// Importation des icônes depuis react-icons
+import { FaInfoCircle, FaTasks, FaGift, FaHandsHelping, FaCheckCircle } from 'react-icons/fa';
 
 export default function Navbar() {
     /**
@@ -26,16 +28,46 @@ export default function Navbar() {
                     </div>
 
                     <div className="navbar">
-                        <ul className="flex gap-2 mr-32">
-                            <li><Link href="#"><Button variant={"link"} className="font-semibold text-base text-white">A propos de nous</Button></Link></li>
-                            <li><Link href="#"><Button variant={"link"} className="font-semibold text-base text-white">Nos missions</Button></Link></li>
-                            <li><Link href="#"><Button variant={"link"} className="font-semibold text-base text-white">Nos offres</Button></Link></li>
-                            <li><Link href="#"><Button variant={"link"} className="font-semibold text-base text-white">Nos valeurs</Button></Link></li>
-                            <li><Link href="#"><Button variant={"link"} className="font-semibold text-base text-white">Nos avantages</Button></Link></li>
+                        <ul className="flex gap-4 mr-32">
+                            <li>
+                                <Link href="#">
+                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                        <FaInfoCircle /> A propos de nous
+                                    </Button>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#">
+                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                        <FaTasks /> Nos missions
+                                    </Button>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#">
+                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                        <FaGift /> Nos offres
+                                    </Button>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#">
+                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                        <FaHandsHelping /> Nos valeurs
+                                    </Button>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#">
+                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                        <FaCheckCircle /> Nos avantages
+                                    </Button>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </>
-    )
+    );
 }
