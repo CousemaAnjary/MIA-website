@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar"
 import slider from '../assets/images/slider.jpg';
+import HeroSection from "@/components/HeroSection";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
                 {/* En-tête */}
                 <header className="bg-cover bg-center h-screen relative" style={{ backgroundImage: `url(${slider})` }} >
                     <Navbar />
+                    <HeroSection />
                 </header>
 
                 {/* Contenu */}
