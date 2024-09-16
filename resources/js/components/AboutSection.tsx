@@ -19,17 +19,13 @@ export default function AboutSection() {
             <div className="container mx-auto my-10 px-4 flex flex-col md:flex-row items-center">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
-                    <h3 className="text-purple-600 font-bold uppercase mb-2">À propos de nous</h3>
+                    <h3 className="text-blue-600 font-bold uppercase mb-2">À propos de nous</h3>
                     <h2 className="text-4xl font-bold mb-4">
                         MIA, Comptabilité et bien plus
                     </h2>
                     <p className="text-gray-600 mb-6">
                         MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de sous-traitance pour les PME et cabinets comptables. Avec plus de 10 ans d'expérience, nous sommes le partenaire digital idéal pour accompagner la croissance de votre entreprise en France.
                     </p>
-                    <p className="text-gray-600 mb-6">
-                        Nous déléguer une partie de vos activités, c'est gagner du temps pour mieux accompagner vos précieux clients. Nous offrons des solutions complètes en comptabilité, fiscalité et missions administratives adaptées à vos besoins spécifiques.
-                    </p>
-
                     {/* Accordéon / Liste des services */}
                     <div className="space-y-4">
                         <div className="p-4 bg-white shadow-lg rounded-lg">
@@ -51,7 +47,7 @@ export default function AboutSection() {
                 </div>
 
                 {/* Section Image */}
-                <div className="md:w-1/2 mt-10 md:mt-0 md:ml-10 flex justify-center">
+                <div className="md:w-1/2 mt-10 md:mt-0 md:ml-10 ">
                     <img src={about} alt="MIA Consulting" className="shadow-lg" />
                 </div>
             </div>

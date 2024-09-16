@@ -31,7 +31,7 @@ export default function Navbar() {
                             <li>
                                 <Link href="#">
                                     <Button variant={"link"} className="font-bold text-base text-white flex items-center gap-2">
-                                        <FaInfoCircle /> A propos de nous
+                                        <FaInfoCircle /> À propos de nous
                                     </Button>
                                 </Link>
                             </li>
