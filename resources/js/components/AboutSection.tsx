@@ -24,7 +24,7 @@ export default function AboutSection() {
      */
     return (
         <>
-            <div className=" relative bg-slate-50 px-40 py-20 flex ">
+            <div className=" relative bg-neutral-50 px-40 py-20 flex ">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
                     <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">

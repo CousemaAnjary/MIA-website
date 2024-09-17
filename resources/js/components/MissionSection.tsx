@@ -40,7 +40,7 @@ export default function Component() {
 
     return (
         <>
-            <div className="py-16 px-40 bg-cover bg-center" >
+            <div className="py-16 px-40 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}  >
 
                 {/* Titre de la section */}
                 <div className="text-start mb-12">
