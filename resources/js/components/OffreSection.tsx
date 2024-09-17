@@ -57,9 +57,9 @@ export default function OffreSection() {
                         <span className="inline-block w-10 h-0.5 bg-white mr-2"></span> {/* Ligne à gauche */}
                         Nos offres
                     </h3>
-                    <p className="mx-auto mt-4 text-xl">Découvrez nos différentes offres adaptées à vos besoins.</p>
+                    <p className="text-3xl font-semibold tex mt-4 ">Découvrez nos <br /> différentes offres adaptées à vos besoins</p>
                 </div>
-                <div className="mt-24 mx-32 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 gap-y-8">
+                <div className="mt-16 mx-32 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 gap-y-8">
                     {tiers.map((tier, index) => (
                         <div
                             key={index}
