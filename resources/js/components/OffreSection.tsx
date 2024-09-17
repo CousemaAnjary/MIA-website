@@ -1,12 +1,13 @@
 import { Check, Star } from "lucide-react";
+import { title } from "process";
 
 export default function Component() {
     const tiers = [
         {
             name: "BRONZE",
             price: "800€",
+            title: "1 collaborateur junior :",
             description: [
-                "1 collaborateur junior",
                 "Saisie et traitement",
                 "Nécessite une révision au bout",
                 "Français moyen",
@@ -16,8 +17,8 @@ export default function Component() {
         {
             name: "SILVER",
             price: "1200€",
+            title: "1 collaborateur senior niveau intermédiaire :",
             description: [
-                "1 collaborateur senior niveau intermédiaire",
                 "Traitement et révision avec édition de rapport",
                 "Bon niveau de français",
                 "Travail autonome sans révision nécessaire",
@@ -27,8 +28,9 @@ export default function Component() {
         {
             name: "GOLD",
             price: "1750€",
+            title: "1 binôme senior + junior :",
             description: [
-                "1 binôme senior + junior",
+
                 "Traitement et révision",
                 "Français excellent",
                 "Rapport d'activité inclus",
@@ -58,23 +60,26 @@ export default function Component() {
                     </h3>
                     <p className="mx-auto mt-4 text-xl">Découvrez nos différentes offres adaptées à vos besoins.</p>
                 </div>
-                <div className="mt-24 mx-32 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8">
+                <div className="mt-24 mx-32 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 gap-y-8">
                     {tiers.map((tier, index) => (
                         <div
                             key={index}
-                            className={`relative p-8 border border-gray-200 rounded-2xl shadow-sm flex flex-col ${tier.featured ? "border-2 border-emerald-500" : ""
+                            className={`relative p-8 border border-gray-200 rounded-2xl shadow-sm flex flex-col ${tier.featured ? "border-2 border-yellow-400" : ""
                                 }`}
                         >
                             <div className="flex-1">
                                 <h3 className="text-xl font-semibold">{tier.name}</h3>
                                 {tier.featured && (
-                                    <p className="absolute top-0 py-1.5 px-4 bg-emerald-500 text-white rounded-full text-xs font-semibold uppercase tracking-wide transform -translate-y-1/2">
-                                        Most popular
+                                    <p className="absolute top-0 py-1.5 px-4 bg-yellow-500 text-white rounded-full text-xs font-semibold uppercase tracking-wide transform -translate-y-1/2">
+                                        Populaire
+
                                     </p>
+
                                 )}
                                 <p className="mt-4 flex items-baseline">
                                     <span className="text-5xl font-extrabold tracking-tight">{tier.price}</span>
                                 </p>
+                                <p className="mt-6 ">{tier.title}</p>
                                 <ul role="list" className="mt-6 space-y-6">
                                     {tier.description.map((feature, i) => (
                                         <li key={i} className="flex">
@@ -84,12 +89,12 @@ export default function Component() {
                                     ))}
                                 </ul>
                             </div>
-                            <a
+                            {/* <a
                                 className="bg-emerald-50 text-emerald-700 hover:bg-emerald-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
                                 href="#"
                             >
                                 Choisir {tier.name}
-                            </a>
+                            </a> */}
                         </div>
                     ))}
                 </div>
