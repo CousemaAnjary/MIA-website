@@ -1,4 +1,6 @@
-import { FiBarChart, FiClipboard, FiFileText } from 'react-icons/fi';
+import { FiBarChart, FiClipboard, FiFileText } from 'react-icons/fi'
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+
 
 export default function Component() {
     const missions = {
@@ -37,50 +39,62 @@ export default function Component() {
                     À propos de nous
                 </h3>
                 <p className="text-slate-800 text-3xl font-semibold mt-4">
-                    Découvrez les missions <br />  comptables, fiscales et administratives que nous offrons à nos clients.
+                    Découvrez les missions comptables, <br />fiscales et administratives que nous offrons à nos clients.
                 </p>
             </div>
 
             {/* Grille des missions */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Missions comptables */}
-                <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
-                    <FiBarChart className="text-blue-700 text-6xl mx-auto mb-4" />
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Missions comptables</h3>
-                    <ul className="text-gray-600 text-left list-disc list-inside">
-                        {missions.comptables.map((mission, index) => (
-                            <li key={index} className="mb-2">
-                                {mission}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+                <Card className="hover:shadow-xl transition-shadow duration-300">
+                    <CardHeader className="text-center">
+                        <FiBarChart className="text-blue-700 text-6xl mx-auto mb-4" />
+                        <CardTitle className="text-2xl font-semibold text-gray-800 mb-4">Missions comptables</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <ul className="text-gray-600 text-left list-disc list-inside">
+                            {missions.comptables.map((mission, index) => (
+                                <li key={index} className="mb-2">
+                                    {mission}
+                                </li>
+                            ))}
+                        </ul>
+                    </CardContent>
+                </Card>
 
                 {/* Missions fiscales */}
-                <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
-                    <FiFileText className="text-blue-700 text-6xl mx-auto mb-4" />
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Missions fiscales</h3>
-                    <ul className="text-gray-600 text-left list-disc list-inside">
-                        {missions.fiscales.map((mission, index) => (
-                            <li key={index} className="mb-2">
-                                {mission}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+                <Card className="hover:shadow-xl transition-shadow duration-300">
+                    <CardHeader className="text-center">
+                        <FiFileText className="text-blue-700 text-6xl mx-auto mb-4" />
+                        <CardTitle className="text-2xl font-semibold text-gray-800 mb-4">Missions fiscales</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <ul className="text-gray-600 text-left list-disc list-inside">
+                            {missions.fiscales.map((mission, index) => (
+                                <li key={index} className="mb-2">
+                                    {mission}
+                                </li>
+                            ))}
+                        </ul>
+                    </CardContent>
+                </Card>
 
                 {/* Missions administratives */}
-                <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
-                    <FiClipboard className="text-blue-700 text-6xl mx-auto mb-4" />
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Missions administratives</h3>
-                    <ul className="text-gray-600 text-left list-disc list-inside">
-                        {missions.administratives.map((mission, index) => (
-                            <li key={index} className="mb-2">
-                                {mission}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+                <Card className="hover:shadow-xl transition-shadow duration-300">
+                    <CardHeader className="text-center">
+                        <FiClipboard className="text-blue-700 text-6xl mx-auto mb-4" />
+                        <CardTitle className="text-2xl font-semibold text-gray-800 mb-4">Missions administratives</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <ul className="text-gray-600 text-left list-disc list-inside">
+                            {missions.administratives.map((mission, index) => (
+                                <li key={index} className="mb-2">
+                                    {mission}
+                                </li>
+                            ))}
+                        </ul>
+                    </CardContent>
+                </Card>
             </div>
         </div>
     );
