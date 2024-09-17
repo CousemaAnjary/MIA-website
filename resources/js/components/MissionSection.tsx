@@ -1,6 +1,9 @@
 import { FiBarChart, FiClipboard, FiFileText } from 'react-icons/fi'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import image from '../assets/images/service.jpg'
+import comptable from '../assets/images/comptable.png'
+import tax from '../assets/images/tax.png'
+import admin from '../assets/images/admin.png'
 
 
 export default function Component() {
@@ -52,7 +55,7 @@ export default function Component() {
                 {/* Missions comptables */}
                 <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
-                        <FiBarChart className="text-blue-700 text-6xl mx-auto mb-4" />
+                        <img src={comptable} alt="" className='mx-auto w-20 mb-4' />
                         <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions comptables</CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -69,7 +72,7 @@ export default function Component() {
                 {/* Missions fiscales */}
                 <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
-                        <FiFileText className="text-blue-700 text-6xl mx-auto mb-4" />
+                    <img src={tax} alt="" className='mx-auto w-20 mb-4' />
                         <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions fiscales</CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -86,7 +89,7 @@ export default function Component() {
                 {/* Missions administratives */}
                 <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
-                        <FiClipboard className="text-blue-700 text-6xl mx-auto mb-4" />
+                    <img src={admin} alt="" className='mx-auto w-20 mb-4' />
                         <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions administratives</CardTitle>
                     </CardHeader>
                     <CardContent>
