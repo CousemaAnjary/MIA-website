@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar"
 import slider from '../assets/images/slider.jpg'
 import HeroSection from "@/components/HeroSection"
 import AboutSection from "@/components/AboutSection"
+import MissionSection from "@/components/MissionSection"
 
 
 export default function Home() {
@@ -32,6 +33,11 @@ export default function Home() {
                     <section>
                         {/* A propos de nous */}
                         <AboutSection />
+                    </section>
+
+                    <section>
+                        {/* Nos mission */}
+                        <MissionSection />
                     </section>
                 </main>
 
