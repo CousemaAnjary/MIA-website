@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Calculator, FileText, PenTool } from "lucide-react"
+import { FiBarChart, FiClipboard, FiFileText } from 'react-icons/fi'
 
 export default function Component() {
     const [activeTab, setActiveTab] = useState("comptables")
@@ -35,43 +36,39 @@ export default function Component() {
     }
 
     return (
-        <Card className="w-full max-w-4xl mx-auto">
-            <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-                <CardTitle className="text-3xl font-bold">Nos missions</CardTitle>
-                <CardDescription className="text-blue-100">Découvrez nos services professionnels</CardDescription>
-            </CardHeader>
-            <CardContent className="p-6">
-                <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-                    <TabsList className="grid w-full grid-cols-3 mb-6">
-                        <TabsTrigger value="comptables" className="flex items-center justify-center">
-                            <Calculator className="w-4 h-4 mr-2" />
-                            Comptables
-                        </TabsTrigger>
-                        <TabsTrigger value="fiscales" className="flex items-center justify-center">
-                            <FileText className="w-4 h-4 mr-2" />
-                            Fiscales
-                        </TabsTrigger>
-                        <TabsTrigger value="administratives" className="flex items-center justify-center">
-                            <PenTool className="w-4 h-4 mr-2" />
-                            Administratives
-                        </TabsTrigger>
-                    </TabsList>
-                    {Object.entries(missions).map(([key, items]) => (
-                        <TabsContent key={key} value={key}>
-                            <ScrollArea className="h-[300px] w-full rounded-md border p-4">
-                                <ul className="space-y-2">
-                                    {items.map((item, index) => (
-                                        <li key={index} className="flex items-start">
-                                            <span className="inline-block w-2 h-2 mt-2 mr-2 bg-blue-500 rounded-full" />
-                                            {item}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </ScrollArea>
-                        </TabsContent>
-                    ))}
-                </Tabs>
-            </CardContent>
-        </Card>
+        <div className="py-16 px-40">
+            {/* Titre de la section */}
+            <div className=" md:w-1/2 mb-12">
+                <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                    <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                    À propos de nous
+                </h3>
+                <p className="text-gray-500 mt-4">Découvrez les missions comptables, fiscales et administratives que nous offrons.</p>
+            </div>
+
+            {/* Grille des missions */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {/* Mission Comptables */}
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+                    <FiBarChart className="text-blue-700 text-6xl mx-auto mb-4" />
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Missions comptables</h3>
+                    <p className="text-gray-600">Nous offrons des services complets pour la tenue de comptabilité, la récupération des pièces, le lettrage, et la révision des comptes.</p>
+                </div>
+
+                {/* Mission Fiscales */}
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+                    <FiFileText className="text-blue-700 text-6xl mx-auto mb-4" />
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Missions fiscales</h3>
+                    <p className="text-gray-600">Nos missions fiscales incluent la préparation et la télédéclaration de la TVA, la préparation de la liasse fiscale et des annexes.</p>
+                </div>
+
+                {/* Mission Administratives */}
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+                    <FiClipboard className="text-blue-700 text-6xl mx-auto mb-4" />
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Missions administratives</h3>
+                    <p className="text-gray-600">Nous assurons la saisie de données, le service après-vente, le support client, et d'autres tâches administratives pour nos clients.</p>
+                </div>
+            </div>
+        </div>
     )
 }
