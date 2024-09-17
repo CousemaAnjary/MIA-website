@@ -1,5 +1,6 @@
 import { FiBarChart, FiClipboard, FiFileText } from 'react-icons/fi'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import image from '../assets/images/service.jpg'
 
 
 export default function Component() {
@@ -31,7 +32,10 @@ export default function Component() {
     };
 
     return (
-        <div className="py-16 px-40">
+        <div className="py-16 px-40 bg-cover bg-center" >
+           
+                
+           
             {/* Titre de la section */}
             <div className="text-start mb-12">
                 <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
@@ -39,17 +43,17 @@ export default function Component() {
                     À propos de nous
                 </h3>
                 <p className="text-slate-800 text-3xl font-semibold mt-4">
-                    Découvrez les missions comptables, <br />fiscales et administratives que nous offrons à nos clients.
+                    Découvrez les missions comptables, <br />fiscales et administratives que nous offrons à nos clients
                 </p>
             </div>
 
             {/* Grille des missions */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Missions comptables */}
-                <Card className="hover:shadow-xl transition-shadow duration-300">
+                <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
                         <FiBarChart className="text-blue-700 text-6xl mx-auto mb-4" />
-                        <CardTitle className="text-2xl font-semibold text-gray-800 mb-4">Missions comptables</CardTitle>
+                        <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions comptables</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <ul className="text-gray-600 text-left list-disc list-inside">
@@ -63,10 +67,10 @@ export default function Component() {
                 </Card>
 
                 {/* Missions fiscales */}
-                <Card className="hover:shadow-xl transition-shadow duration-300">
+                <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
                         <FiFileText className="text-blue-700 text-6xl mx-auto mb-4" />
-                        <CardTitle className="text-2xl font-semibold text-gray-800 mb-4">Missions fiscales</CardTitle>
+                        <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions fiscales</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <ul className="text-gray-600 text-left list-disc list-inside">
@@ -80,10 +84,10 @@ export default function Component() {
                 </Card>
 
                 {/* Missions administratives */}
-                <Card className="hover:shadow-xl transition-shadow duration-300">
+                <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
                         <FiClipboard className="text-blue-700 text-6xl mx-auto mb-4" />
-                        <CardTitle className="text-2xl font-semibold text-gray-800 mb-4">Missions administratives</CardTitle>
+                        <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions administratives</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <ul className="text-gray-600 text-left list-disc list-inside">
