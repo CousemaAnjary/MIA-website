@@ -5,6 +5,8 @@ import comptable from '../assets/images/comptable.png'
 import tax from '../assets/images/tax.png'
 import admin from '../assets/images/admin.png'
 import { Button } from './ui/button'
+import GridPattern from './magicui/grid-pattern'
+import { cn } from '@/lib/utils'
 
 
 export default function Component() {
@@ -42,6 +44,7 @@ export default function Component() {
 
             {/* Titre de la section */}
             <div className="text-start mb-12">
+               
                 <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
                     <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
                     Nos missions
@@ -63,7 +66,7 @@ export default function Component() {
                         <ul className="text-gray-600 text-left list-disc list-inside">
                             {missions.comptables.map((mission, index) => (
                                 <li key={index} className="mb-4 text-primary underline-offset-4">
-                                        {mission}
+                                    {mission}
                                 </li>
                             ))}
                         </ul>
