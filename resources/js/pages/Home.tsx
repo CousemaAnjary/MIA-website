@@ -3,6 +3,7 @@ import slider from '../assets/images/slider.jpg'
 import HeroSection from "@/components/HeroSection"
 import AboutSection from "@/components/AboutSection"
 import MissionSection from "@/components/MissionSection"
+import OffreSection from "@/components/OffreSection"
 
 export default function Home() {
     /**
@@ -37,6 +38,11 @@ export default function Home() {
                     <section>
                         {/* Nos mission */}
                         <MissionSection />
+                    </section>
+
+                    <section>
+                        {/* Nos offres */}
+                        <OffreSection />
                     </section>
                 </main>
 

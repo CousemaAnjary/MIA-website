@@ -4,7 +4,7 @@ import comptable from '../assets/images/comptable.png'
 import tax from '../assets/images/tax.png'
 import admin from '../assets/images/admin.png'
 
-export default function Component() {
+export default function MissionSection() {
     const missions = {
         comptables: [
             {
