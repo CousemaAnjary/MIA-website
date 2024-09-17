@@ -31,10 +31,13 @@ export default function Component() {
     return (
         <div className="py-16 px-40">
             {/* Titre de la section */}
-            <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold text-blue-900">Nos Missions</h2>
-                <p className="text-gray-500 mt-4">
-                    Découvrez les missions comptables, fiscales et administratives que nous offrons.
+            <div className="text-start mb-12">
+                <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                    <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                    À propos de nous
+                </h3>
+                <p className="text-slate-800 text-3xl font-semibold mt-4">
+                    Découvrez les missions <br />  comptables, fiscales et administratives que nous offrons à nos clients.
                 </p>
             </div>
 
