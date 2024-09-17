@@ -51,8 +51,8 @@ export default function OffreSection() {
 
     return (
         <div className="bg-neutral-50">
-            <div className="py-16 bg-blue-900 text-white mx-20 rounded-3xl">
-                <div className="mx-20">
+            <div className="py-16 bg-blue-900 text-white mx-11 rounded-3xl">
+                <div className="mx-28">
                     <h3 className="font-mono font-semibold text-xl uppercase mb-5 flex items-center">
                         <span className="inline-block w-10 h-0.5 bg-white mr-2"></span> {/* Ligne à gauche */}
                         Nos offres
@@ -97,6 +97,11 @@ export default function OffreSection() {
                         </div>
                     ))}
                 </div>
+                <p className="mt-12 text-center text-sm ">
+                    1 collaborateur peut absorber 30 à 60 dossiers
+                    <br />
+                    Licence et logiciel à la charge du client
+                </p>
             </div>
         </div>
     );
