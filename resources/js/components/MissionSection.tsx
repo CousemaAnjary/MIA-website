@@ -44,7 +44,7 @@ export default function Component() {
             <div className="text-start mb-12">
                 <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
                     <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
-                    À propos de nous
+                    Nos missions
                 </h3>
                 <p className="text-slate-800 text-3xl font-semibold mt-4">
                     Découvrez les missions comptables, <br />fiscales et administratives que nous offrons à nos clients
