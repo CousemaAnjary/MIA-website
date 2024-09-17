@@ -1,7 +1,6 @@
 import { Check, Star } from "lucide-react";
-import { title } from "process";
 
-export default function Component() {
+export default function OffreSection() {
     const tiers = [
         {
             name: "BRONZE",
