@@ -4,6 +4,7 @@ import image from '../assets/images/service.jpg'
 import comptable from '../assets/images/comptable.png'
 import tax from '../assets/images/tax.png'
 import admin from '../assets/images/admin.png'
+import { Button } from './ui/button'
 
 
 export default function Component() {
@@ -36,9 +37,9 @@ export default function Component() {
 
     return (
         <div className="py-16 px-40 bg-cover bg-center" >
-           
-                
-           
+
+
+
             {/* Titre de la section */}
             <div className="text-start mb-12">
                 <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
@@ -61,8 +62,8 @@ export default function Component() {
                     <CardContent>
                         <ul className="text-gray-600 text-left list-disc list-inside">
                             {missions.comptables.map((mission, index) => (
-                                <li key={index} className="mb-2">
-                                    {mission}
+                                <li key={index} className="mb-4 text-primary underline-offset-4">
+                                        {mission}
                                 </li>
                             ))}
                         </ul>
@@ -72,13 +73,13 @@ export default function Component() {
                 {/* Missions fiscales */}
                 <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
-                    <img src={tax} alt="" className='mx-auto w-20 mb-4' />
+                        <img src={tax} alt="" className='mx-auto w-20 mb-4' />
                         <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions fiscales</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <ul className="text-gray-600 text-left list-disc list-inside">
                             {missions.fiscales.map((mission, index) => (
-                                <li key={index} className="mb-2">
+                                <li key={index} className="mb-4 text-primary underline-offset-4">
                                     {mission}
                                 </li>
                             ))}
@@ -89,13 +90,13 @@ export default function Component() {
                 {/* Missions administratives */}
                 <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardHeader className="text-center">
-                    <img src={admin} alt="" className='mx-auto w-20 mb-4' />
+                        <img src={admin} alt="" className='mx-auto w-20 mb-4' />
                         <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions administratives</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <ul className="text-gray-600 text-left list-disc list-inside">
                             {missions.administratives.map((mission, index) => (
-                                <li key={index} className="mb-2">
+                                <li key={index} className="mb-4 text-primary underline-offset-4">
                                     {mission}
                                 </li>
                             ))}
