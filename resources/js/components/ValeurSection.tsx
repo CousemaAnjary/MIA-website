@@ -24,7 +24,7 @@ export default function ValeurSection() {
                     <div className="bg-white shadow-lg rounded-xl p-8">
                     <img src={passion} alt="" className='mx-auto w-20 mb-4' />
                         <h4 className="text-2xl font-bold text-blue-900 mb-4">La passion du client</h4>
-                        <p className="text-slate-700">
+                        <p className="text-center font-medium text-base">
                             Placer le client au cœur de nos préoccupations, s'engager à fournir un travail de qualité.
                         </p>
                     </div>
@@ -33,7 +33,7 @@ export default function ValeurSection() {
                     <div className="bg-white shadow-lg rounded-xl p-8">
                     <img src={evolution} alt="" className='mx-auto w-20 mb-4' />
                         <h4 className="text-2xl font-bold text-blue-900 mb-4">L'évolution continue</h4>
-                        <p className="text-slate-700">
+                        <p className="text-center font-medium text-base">
                             Apprendre et grandir ensemble, cultiver l'excellence.
                         </p>
                     </div>
@@ -42,7 +42,7 @@ export default function ValeurSection() {
                     <div className="bg-white shadow-lg rounded-xl p-8">
                     <img src={help} alt="" className='mx-auto w-20 mb-4' />
                         <h4 className="text-2xl font-bold text-blue-900 mb-4">Le dévouement</h4>
-                        <p className="text-slate-700">
+                        <p className="text-center font-medium text-base">
                             Donner du temps, de l'expérience et de la compétence, aller au bout du contrat, aller au bout de soi.
                         </p>
                     </div>
