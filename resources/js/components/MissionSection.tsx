@@ -60,7 +60,7 @@ export default function MissionSection() {
                     <Card className="hover:shadow-md transition-shadow duration-300">
                         <CardHeader className="text-center">
                             <img src={comptable} alt="" className='mx-auto w-20 mb-4' />
-                            <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions comptables</CardTitle>
+                            <CardTitle className="text-slate-800 text-2xl font-bold mb-4">Missions comptables</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <ul className="text-gray-600 text-left list-disc list-inside">
@@ -90,7 +90,7 @@ export default function MissionSection() {
                     <Card className="hover:shadow-md transition-shadow duration-300">
                         <CardHeader className="text-center">
                             <img src={tax} alt="" className='mx-auto w-20 mb-4' />
-                            <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions fiscales</CardTitle>
+                            <CardTitle className="text-slate-800 text-2xl font-bold mb-4">Missions fiscales</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <ul className="text-gray-600 text-left list-disc list-inside">
@@ -107,7 +107,7 @@ export default function MissionSection() {
                     <Card className="hover:shadow-md transition-shadow duration-300">
                         <CardHeader className="text-center">
                             <img src={admin} alt="" className='mx-auto w-20 mb-4' />
-                            <CardTitle className="text-slate-800 text-3xl font-semibold mb-4">Missions administratives</CardTitle>
+                            <CardTitle className="text-slate-800 text-2xl font-bold mb-4">Missions administratives</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <ul className="text-gray-600 text-left list-disc list-inside">
