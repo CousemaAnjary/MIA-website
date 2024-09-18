@@ -98,7 +98,7 @@ export default function OffreSection() {
                         </div>
                     ))}
                 </div>
-                <p className="mt-12 text-center text-sm ">
+                <p className="mt-12 text-center text-sm font-medium">
                     1 collaborateur peut absorber 30 à 60 dossiers
                     <br />
                     Licence et logiciel à la charge du client
