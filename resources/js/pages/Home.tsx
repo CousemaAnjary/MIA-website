@@ -44,6 +44,11 @@ export default function Home() {
                         {/* Nos offres */}
                         <OffreSection />
                     </section>
+
+                    <section>
+                        {/* Nos valeurs */}
+
+                    </section>
                 </main>
 
                 {/* Pied de page */}
