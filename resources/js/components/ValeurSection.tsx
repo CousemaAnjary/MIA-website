@@ -21,7 +21,7 @@ export default function ValeurSection() {
                 {/* Section Valeurs */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                     {/* La passion du client */}
-                    <div className="bg-white shadow-md rounded-xl border p-8">
+                    <div className="bg-white shadow-sm rounded-xl border p-8">
                     <img src={passion} alt="" className='mx-auto w-20 mb-4' />
                         <h4 className="text-2xl font-semibold text-blue-900 mb-4">La passion du client</h4>
                         <p className="text-center font-medium text-base">
@@ -30,7 +30,7 @@ export default function ValeurSection() {
                     </div>
 
                     {/* L'évolution continue */}
-                    <div className="bg-white shadow-md rounded-xl border p-8">
+                    <div className="bg-white shadow-sm rounded-xl border p-8">
                     <img src={evolution} alt="" className='mx-auto w-20 mb-4' />
                         <h4 className="text-2xl font-semibold text-blue-900 mb-4">L'évolution continue</h4>
                         <p className="text-center font-medium text-base">
@@ -39,7 +39,7 @@ export default function ValeurSection() {
                     </div>
 
                     {/* Le dévouement */}
-                    <div className="bg-white shadow-md rounded-xl border p-8">
+                    <div className="bg-white shadow-sm rounded-xl border p-8">
                     <img src={help} alt="" className='mx-auto w-20 mb-4' />
                         <h4 className="text-2xl font-semibold text-blue-900 mb-4">Le dévouement</h4>
                         <p className="text-center font-medium text-base">
