@@ -1,5 +1,6 @@
 import { EuroIcon, HeartHandshakeIcon, LightbulbIcon, UsersIcon } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import image2 from '../assets/images/image2.jpg'
 
 export default function AvantageSection() {
     /**
@@ -17,17 +18,23 @@ export default function AvantageSection() {
      */
     return (
         <>
-            <div className="container mx-auto px-4 py-12">
-                <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
-                    <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
-                    Nos missions
-                </h3>
+            <div className="container mx-auto px-4 py-12" style={{ backgroundImage: `url(${image2})` }}>
+                <div className="text-start mb-12">
+
+                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                        <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                        Nos avantages
+                    </h3>
+                    <p className="text-slate-800 text-3xl font-semibold mt-4">
+                        Découvrez les avantages de travailler avec nous
+                    </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <Card className="bg-primary text-primary-foreground">
+                    <Card className="bg-blue-900 text-primary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <LightbulbIcon className="h-6 w-6" />
-                                <span>Une organisation adaptée à la vôtre</span>
+                                <LightbulbIcon size={40}  />
+                                <span className="text-base font-semibold">Une organisation adaptée à la vôtre</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -45,8 +52,8 @@ export default function AvantageSection() {
                     <Card className="bg-secondary text-secondary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <EuroIcon className="h-6 w-6" />
-                                <span>Des coûts compétitifs</span>
+                                <EuroIcon size={40} />
+                                <span className="text-base font-semibold">Des coûts compétitifs</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -54,11 +61,11 @@ export default function AvantageSection() {
                         </CardContent>
                     </Card>
 
-                    <Card className="bg-primary text-primary-foreground">
+                    <Card className="bg-blue-900 text-primary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <UsersIcon className="h-6 w-6" />
-                                <span>Un partenaire proche de vous</span>
+                                <UsersIcon size={40}/>
+                                <span className="text-base font-semibold">Un partenaire proche de vous</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -69,8 +76,8 @@ export default function AvantageSection() {
                     <Card className="bg-secondary text-secondary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <HeartHandshakeIcon className="h-6 w-6" />
-                                <span>Une entreprise engagée</span>
+                                <HeartHandshakeIcon size={40}/>
+                                <span className="text-base font-semibold">Une entreprise engagée</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>

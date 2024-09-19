@@ -6,6 +6,7 @@ import MissionSection from "@/components/MissionSection"
 import OffreSection from "@/components/OffreSection"
 import ValeurSection from "@/components/ValeurSection"
 import AvantageSection from "@/components/AvantageSection"
+import FooterSection from "@/components/FooterSection"
 
 export default function Home() {
     /**
@@ -59,7 +60,9 @@ export default function Home() {
                 </main>
 
                 {/* Pied de page */}
-                <footer></footer>
+                <footer>
+                    <FooterSection />
+                </footer>
             </div >
         </>
     )
