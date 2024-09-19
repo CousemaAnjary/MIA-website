@@ -5,6 +5,7 @@ import AboutSection from "@/components/AboutSection"
 import MissionSection from "@/components/MissionSection"
 import OffreSection from "@/components/OffreSection"
 import ValeurSection from "@/components/ValeurSection"
+import AvantageSection from "@/components/AvantageSection"
 
 export default function Home() {
     /**
@@ -49,7 +50,11 @@ export default function Home() {
                     <section>
                         {/* Nos valeurs */}
                         <ValeurSection />
+                    </section>
 
+                    <section>
+                        {/* Nos Avantage */}
+                        <AvantageSection />
                     </section>
                 </main>
 
