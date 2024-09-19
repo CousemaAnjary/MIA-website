@@ -18,8 +18,8 @@ export default function AvantageSection() {
      */
     return (
         <>
-            <div className="container mx-auto px-4 py-12" style={{ backgroundImage: `url(${image2})` }}>
-                <div className="text-start mb-12">
+            <div className="container mx-auto px-4 py-16 pb-32" style={{ backgroundImage: `url(${image2})` }}>
+                <div className="text-start mb-12 px-20">
 
                     <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
                         <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
