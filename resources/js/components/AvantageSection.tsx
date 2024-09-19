@@ -1,6 +1,7 @@
 import { EuroIcon, HeartHandshakeIcon, LightbulbIcon, UsersIcon } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import image2 from '../assets/images/image2.jpg'
+import image4 from '../assets/images/image4.png'
 
 export default function AvantageSection() {
     /**
@@ -33,7 +34,7 @@ export default function AvantageSection() {
                     <Card className="bg-blue-900 text-primary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <LightbulbIcon size={40}  />
+                                <LightbulbIcon size={40} />
                                 <span className="text-base font-semibold">Une organisation adaptée à la vôtre</span>
                             </CardTitle>
                         </CardHeader>
@@ -49,7 +50,7 @@ export default function AvantageSection() {
                         </CardContent>
                     </Card>
 
-                    <Card className="bg-secondary text-secondary-foreground">
+                    <Card className="bg-white shadow-sm">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
                                 <EuroIcon size={40} />
@@ -57,14 +58,14 @@ export default function AvantageSection() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
-                            <p>Nos différentes formules vous permettent de réduire vos coûts en matière de charges sociales (salaire, recrutement).</p>
+                            <p>Nos différentes formules vous permettent de réduire vos coûts en matière de charges sociales (salaire, recrutement)</p>
                         </CardContent>
                     </Card>
 
                     <Card className="bg-blue-900 text-primary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <UsersIcon size={40}/>
+                                <UsersIcon size={40} />
                                 <span className="text-base font-semibold">Un partenaire proche de vous</span>
                             </CardTitle>
                         </CardHeader>
@@ -73,17 +74,17 @@ export default function AvantageSection() {
                         </CardContent>
                     </Card>
 
-                    <Card className="bg-secondary text-secondary-foreground">
+                    <Card className="bg-white shadow-sm">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">
-                                <HeartHandshakeIcon size={40}/>
+                                <HeartHandshakeIcon size={40} />
                                 <span className="text-base font-semibold">Une entreprise engagée</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
                             <p>Une société qui favorise l'insertion/réinsertion professionnelle des jeunes diplômés et jeunes parents.</p>
-                            <p className="mt-4">Membre du groupe</p>
-                            <img src="/placeholder.svg?height=30&width=150" alt="Delegacompta logo" className="mt-2" />
+                            <p className="mt-4 font-medium">Membre du groupe</p>
+                            <img src={image4} alt="Delegacompta logo" className="mt-2 w-48" />
                         </CardContent>
                     </Card>
                 </div>
