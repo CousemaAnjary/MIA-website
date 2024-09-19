@@ -1,7 +1,7 @@
-import { FaHeart, FaSeedling, FaHandsHelping } from "react-icons/fa";
+import help from '../assets/images/help.png'
 import passion from '../assets/images/passion.png'
 import evolution from '../assets/images/evolution.png'
-import help from '../assets/images/help.png'
+
 
 export default function ValeurSection() {
     return (
