@@ -20,8 +20,8 @@ export default function Navbar() {
      */
     return (
         <>
-            <nav className="container-fluid p-2">
-                <div className="container flex justify-between items-center">
+            <nav className="container-fluid flex justify-between items-center p-2">
+                
                     <div className="logo ml-28">
                         <img className="w-32" src={logo} alt="logo" />
                     </div>
@@ -65,7 +65,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                     </div>
-                </div>
+                
             </nav>
         </>
     );

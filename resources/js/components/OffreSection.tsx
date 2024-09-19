@@ -52,7 +52,7 @@ export default function OffreSection() {
 
     return (
       
-            <div className="py-16  text-white bg-cover bg-center " style={{ backgroundImage: `url(${image3})` }}>
+            <div className="py-16   text-white bg-cover bg-center " style={{ backgroundImage: `url(${image3})` }}>
                 <div className="mx-40">
                     <h3 className="  font-mono font-semibold text-xl uppercase mb-5 flex items-center">
                         <span className="inline-block w-10 h-0.5 bg-white  mr-2"></span> {/* Ligne à gauche */}
