@@ -1,5 +1,5 @@
-import { EuroIcon, HeartHandshakeIcon, LightbulbIcon, UsersIcon } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { EuroIcon, HeartHandshakeIcon, LightbulbIcon, UsersIcon } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import image2 from '../assets/images/image2.jpg'
 import image4 from '../assets/images/image4.png'
 
