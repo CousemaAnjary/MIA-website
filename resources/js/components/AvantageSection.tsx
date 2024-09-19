@@ -30,7 +30,7 @@ export default function AvantageSection() {
                         Découvrez les avantages de travailler avec nous
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <Card className="bg-blue-900 text-primary-foreground">
                         <CardHeader>
                             <CardTitle className="flex items-center space-x-2">

@@ -1,25 +1,15 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import logo from '../assets/images/logo.png'
 
 export default function FooterSection() {
     return (
-        <footer className="bg-blue-900 text-white py-16 px-4 sm:max-w-xl md:max-w-full md:px-24 lg:px-8">
+        <footer className="bg-blue-900 text-white py-1 pt-16 px-4 sm:max-w-xl md:max-w-full md:px-24 lg:px-8">
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 mb-8">
-                <div className="sm:col-span-2">
-                    <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
-                        <svg className="w-8 text-yellow-400" viewBox="0 0 24 24" strokeLinejoin="round" strokeWidth="2" strokeLinecap="round" strokeMiterlimit="10" stroke="currentColor" fill="none">
-                            <rect x="3" y="1" width="7" height="12"></rect>
-                            <rect x="3" y="17" width="7" height="6"></rect>
-                            <rect x="14" y="1" width="7" height="6"></rect>
-                            <rect x="14" y="11" width="7" height="12"></rect>
-                        </svg>
-                        <span className="ml-2 text-2xl font-bold tracking-wide text-white uppercase">Company</span>
-                    </a>
-                    <div className="mt-6 lg:max-w-sm">
-                        <p className="text-sm text-gray-300">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-                        </p>
-                        <p className="mt-4 text-sm text-gray-300">
-                            Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                <div className="sm:col-span-2 ms-28 mb-3">
+                    <img src={logo} alt="" className="w-80 ms-14 relative bottom-8" />
+                    <div className="lg:max-w-md relative bottom-10">
+                        <p className="text-base font-semibold text-gray-300 text-center">
+                            Nous déléguer une partie de vos activités, c'est gagner du temps pour mieux accompagner vos précieux clients
                         </p>
                     </div>
                 </div>
