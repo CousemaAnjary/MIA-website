@@ -1,6 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import logo from '../assets/images/logo.png'
 
+
 export default function FooterSection() {
     return (
         <footer className="bg-blue-900 text-white py-1 pt-16 px-4 sm:max-w-xl md:max-w-full md:px-24 lg:px-8">
@@ -14,7 +15,7 @@ export default function FooterSection() {
                     </div>
                 </div>
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold mb-4">Dossier test gratuit - sans engagement</h3>
+                    <h3 className="text-2xl font-bold mb-4">Dossier test gratuit - sans engagement</h3>
                     <div className="space-y-4">
                         <a href="https://maps.app.goo.gl/..." target="_blank" rel="noopener noreferrer" className="flex items-center group">
                             <MapPin className="mr-3" />
