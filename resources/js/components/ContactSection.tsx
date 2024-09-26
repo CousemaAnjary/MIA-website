@@ -1,4 +1,7 @@
 import { Button } from "./ui/button"
+import { Input } from "./ui/input"
+import { Label } from "./ui/label"
+import { Textarea } from "./ui/textarea"
 
 export default function ContactSection() {
     /**
@@ -25,33 +28,32 @@ export default function ContactSection() {
                         Contactez-nous
                     </h3>
 
-                    <div className="flex flex-wrap">
+                    <p className="text-slate-800 text-3xl font-semibold mt-4">
+                        Vous avez une question ? Contactez-nous
+                    </p>
+
+                    <div className="flex flex-wrap mt-10">
 
                         <form className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
 
-                            <div className="mb-3 w-full">
-                                <label className="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                    Name
-                                </label>
-                                <input type="text" className="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90" placeholder="Name" />
+                            <div className="mb-2 w-full">
+                                <Label >Nom Complet</Label>
+                                <Input type="text" className="mt-2 shadow-sm" placeholder="Nom Complet" />
                             </div>
 
                             <div className="mb-3 w-full">
-                                <label className="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                    Email
-                                </label>
-                                <input type="email" className="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90"
-                                    placeholder="Enter your email address" />
+                                <Label >Email</Label>
+                                <Input type="email" className="mt-2 shadow-sm" placeholder="Entrez votre adresse email" />
+
                             </div>
 
                             <div className="mb-3 w-full">
-                                <label className="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                    Message
-                                </label>
-                                <textarea className="px-2 py-2 border rounded-[5px] w-full outline-none" name="" id=""></textarea>
+                                <Label >Objet</Label>
+                                {/* <Textarea className="mt-2" placeholder="Objet de votre message" /> */}
+                                <Textarea placeholder="Objet de votre message" className="h-32 mt-2 shadow-sm " />
                             </div>
 
-                            <Button className="w-full bg-blue-900 hover:bg-blue-800">
+                            <Button className="w-full bg-blue-900 hover:bg-blue-800 mt-3">
                                 Envoyer
                             </Button>
                         </form>
@@ -61,7 +63,7 @@ export default function ContactSection() {
                                 <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
                                         <div className="shrink-0">
-                                            <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                                            <div className="inline-block bg-slate-100 rounded-md bg-teal-400-100 p-4 text-blue-800">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" className="h-6 w-6">
                                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -70,7 +72,7 @@ export default function ContactSection() {
                                             </div>
                                         </div>
                                         <div className="ml-6 grow">
-                                            <p className="mb-2 font-bold">
+                                            <p className="mb-1 text-base font-semibold">
                                                 Technical support
                                             </p>
                                             <p className="text-neutral-500 ">
@@ -85,7 +87,7 @@ export default function ContactSection() {
                                 <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
                                         <div className="shrink-0">
-                                            <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                                            <div className="inline-block bg-slate-100 rounded-md bg-teal-400-100 p-4 text-blue-800">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" className="h-6 w-6">
                                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -94,9 +96,10 @@ export default function ContactSection() {
                                             </div>
                                         </div>
                                         <div className="ml-6 grow">
-                                            <p className="mb-2 font-bold ">
+                                            <p className="mb-1 text-base font-semibold">
                                                 Sales questions
                                             </p>
+
                                             <p className="text-neutral-500 ">
                                                 sales@example.com
                                             </p>
@@ -109,7 +112,7 @@ export default function ContactSection() {
                                 <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                     <div className="align-start flex">
                                         <div className="shrink-0">
-                                            <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                                            <div className="inline-block bg-slate-100 rounded-md bg-teal-400-100 p-4 text-blue-800">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" className="h-6 w-6">
                                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -118,7 +121,7 @@ export default function ContactSection() {
                                             </div>
                                         </div>
                                         <div className="ml-6 grow">
-                                            <p className="mb-2 font-bold ">Press</p>
+                                            <p className="mb-1 text-base font-semibold">Press</p>
                                             <p className="text-neutral-500 ">
                                                 press@example.com
                                             </p>
@@ -131,7 +134,7 @@ export default function ContactSection() {
                                 <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                     <div className="align-start flex">
                                         <div className="shrink-0">
-                                            <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                                            <div className="inline-block bg-slate-100 rounded-md bg-teal-400-100 p-4 text-blue-800">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                     stroke-width="2" stroke="currentColor" className="h-6 w-6">
                                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -140,7 +143,7 @@ export default function ContactSection() {
                                             </div>
                                         </div>
                                         <div className="ml-6 grow">
-                                            <p className="mb-2 font-bold">
+                                            <p className="mb-1 text-base font-semibold">
                                                 Bug report
                                             </p>
                                             <p className="text-neutral-500 ">
