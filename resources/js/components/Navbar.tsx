@@ -1,71 +1,81 @@
-import { Button } from "./ui/button"
-import { Link } from "@inertiajs/react"
-import logo from '../assets/images/logo.png'
-import { FaInfoCircle, FaTasks, FaGift, FaHandsHelping, FaCheckCircle } from 'react-icons/fa'
-
+import { Button } from "./ui/button";
+import { Link } from "@inertiajs/react";
+import logo from '../assets/images/logo.png';
+import { FaInfoCircle, FaTasks, FaGift, FaHandsHelping, FaCheckCircle } from 'react-icons/fa';
+import { useState } from 'react';
+import { Menu } from "lucide-react";
 
 export default function Navbar() {
     /**
      * ! STATE (état, données) de l'application
      */
-
+    const [isOpen, setIsOpen] = useState(false);
 
     /**
      * ! COMPORTEMENT (méthodes, fonctions) de l'application
      */
-
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
 
     /**
      * ! AFFICHAGE (render) de l'application
      */
     return (
         <>
-            <nav className="container-fluid flex justify-between items-center p-2">
-                
-                    <div className="logo ml-28">
-                        <img className="w-32" src={logo} alt="logo" />
-                    </div>
+            <nav className="container-fluid relative flex justify-between lg:justify-center xl:justify-between items-center border-b p-2 lg:p-5 xl:p-1">
+                {/* Logo */}
+                <div className="logo ml-4 lg:ml-16">
+                    <img className="w-24 lg:hidden xl:block xl:w-32" src={logo} alt="logo" />
+                </div>
 
-                    <div className="navbar">
-                        <ul className="flex gap-4 mr-24">
-                            <li>
-                                <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
-                                        <FaInfoCircle /> À propos de nous
-                                    </Button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
-                                        <FaTasks /> Nos missions
-                                    </Button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
-                                        <FaGift /> Nos offres
-                                    </Button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
-                                        <FaHandsHelping /> Nos valeurs
-                                    </Button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#">
-                                    <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
-                                        <FaCheckCircle /> Nos avantages
-                                    </Button>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                
+                {/* Menu Toggle Button for Mobile */}
+                <div className="lg:hidden mr-4">
+                    <Button variant={"ghost"} size={"icon"} onClick={toggleMenu} className="text-white">
+                        <Menu size={30} />
+                    </Button>
+                </div>
+
+                {/* Navbar Links */}
+                <div className={`navbar flex-col lg:flex-row lg:flex gap-4 mr-4 lg:mr-16 ${isOpen ? 'flex' : 'hidden'} xl:flex`}>
+                    <ul className="flex flex-col lg:flex-row gap-4">
+                        <li>
+                            <Link href="#">
+                                <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <FaInfoCircle /> À propos de nous
+                                </Button>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <FaTasks /> Nos missions
+                                </Button>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <FaGift /> Nos offres
+                                </Button>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <FaHandsHelping /> Nos valeurs
+                                </Button>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Button variant={"link"} className="font-semibold text-base text-white flex items-center gap-2">
+                                    <FaCheckCircle /> Nos avantages
+                                </Button>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </>
     );

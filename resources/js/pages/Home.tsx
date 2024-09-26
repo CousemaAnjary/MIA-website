@@ -25,50 +25,50 @@ export default function Home() {
      */
     return (
         <>
-            <div>
+            <div className="relative min-h-screen">
                 {/* En-tête */}
                 <header className="bg-cover bg-center h-screen relative" style={{ backgroundImage: `url(${slider})` }} >
                     <Navbar />
-                    <HeroSection />
+                    {/* <HeroSection /> */}
                 </header>
 
                 {/* Contenu */}
-                <main>
+                {/* <main>
                     <section>
-                        {/* A propos de nous */}
+                      
                         <AboutSection />
                     </section>
 
                     <section>
-                        {/* Nos mission */}
+                       
                         <MissionSection />
                     </section>
 
                     <section>
-                        {/* Nos offres */}
+                     
                         <OffreSection />
                     </section>
 
                     <section>
-                        {/* Nos valeurs */}
+                        
                         <ValeurSection />
                     </section>
 
                     <section>
-                        {/* Nos Avantage */}
+                      
                         <AvantageSection />
                     </section>
 
                     <section>
-                        {/* Contactez-nous */}
+                        
                         <ContactSection />
                     </section>
                 </main>
 
-                {/* Pied de page */}
+               
                 <footer>
                     <FooterSection />
-                </footer>
+                </footer> */}
             </div >
         </>
     )
