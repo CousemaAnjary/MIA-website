@@ -29,46 +29,43 @@ export default function Home() {
                 {/* En-tête */}
                 <header className="bg-cover bg-center h-screen relative" style={{ backgroundImage: `url(${slider})` }} >
                     <Navbar />
-                    {/* <HeroSection /> */}
+                    <HeroSection />
                 </header>
 
                 {/* Contenu */}
-                {/* <main>
+                <main>
                     <section>
-                      
                         <AboutSection />
                     </section>
 
                     <section>
-                       
                         <MissionSection />
                     </section>
-
+                    {/* 
                     <section>
                      
                         <OffreSection />
-                    </section>
+                    </section> */}
 
-                    <section>
+                    {/* <section>
                         
                         <ValeurSection />
-                    </section>
+                    </section> */}
 
-                    <section>
+                    {/* <section>
                       
                         <AvantageSection />
-                    </section>
+                    </section> */}
 
-                    <section>
-                        
+                    {/* <section>
                         <ContactSection />
-                    </section>
+                    </section>  */}
                 </main>
 
-               
+                {/*                
                 <footer>
                     <FooterSection />
-                </footer> */}
+                </footer>  */}
             </div >
         </>
     )

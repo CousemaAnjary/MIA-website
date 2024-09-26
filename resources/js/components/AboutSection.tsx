@@ -10,7 +10,6 @@ export default function AboutSection() {
      */
     const [openItem, setOpenItem] = useState<string | null>(null)
 
-
     /**
      * ! COMPORTEMENT (méthodes, fonctions) de l'application
      */
@@ -18,30 +17,29 @@ export default function AboutSection() {
         setOpenItem(openItem === item ? null : item)
     }
 
-
     /**
      * ! AFFICHAGE (render) de l'application
      */
     return (
         <>
-            <div className=" relative bg-neutral-50 px-40 py-20 flex ">
+            <div className="relative bg-neutral-50 px-4 md:px-16 lg:px-40 py-10 md:py-20 flex flex-col md:flex-row">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start">
                         <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
                         À propos de nous
                     </h3>
-                    <h2 className="text-4xl font-bold mb-4 text-slate-800">
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-slate-800 text-center md:text-left">
                         MIA, votre partenaire digital pour une comptabilité simplifiée
                     </h2>
-                    <p className="text-gray-600 mb-6">
+                    <p className="text-sm md:text-base lg:text-lg text-gray-600 mb-6 text-center md:text-left">
                         MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de sous-traitance pour les PME et cabinets comptables. Avec plus de 10 ans d'expérience, nous sommes le partenaire digital idéal pour accompagner la croissance de votre entreprise en France.
                     </p>
                     {/* Accordéon / Liste des services */}
 
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1" className='mb-3'>
-                            <AccordionTrigger className="bg-white border hover:text-blue-900  p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-1')}>
+                            <AccordionTrigger className="bg-white border hover:text-blue-900 p-4 transition-colors data-[state=open]:bg-blue-900 data-[state=open]:text-white decoration-transparent" onClick={() => handleToggle('item-1')}>
                                 Quels services comptables proposons-nous ?
                                 <span className="ml-2">
                                     {openItem === 'item-1' ? <FiMinus /> : <FiPlus />}
@@ -78,8 +76,8 @@ export default function AboutSection() {
                 </div>
 
                 {/* Section Image */}
-                <div className="md:w-1/2 mt-10 md:mt-0 md:ml-10 ">
-                    <img src={about} alt="MIA Consulting" className="shadow-lg" />
+                <div className="md:w-1/2 mt-10 md:mt-0 md:ml-10">
+                    <img src={about} alt="MIA Consulting" className="shadow-lg w-full h-auto object-cover" />
                 </div>
             </div>
         </>
