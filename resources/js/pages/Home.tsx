@@ -41,11 +41,10 @@ export default function Home() {
                     <section>
                         <MissionSection />
                     </section>
-                    {/* 
+                    
                     <section>
-                     
                         <OffreSection />
-                    </section> */}
+                    </section>
 
                     {/* <section>
                         
