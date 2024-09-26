@@ -39,7 +39,7 @@ export default function Navbar() {
                             </Button>
                         </DialogTrigger>
 
-                        <DialogContent className="fixed top-36 right-0 w-full bg-gray-900 border-none text-white p-3 shadow-lg">
+                        <DialogContent className="fixed top-[134px] right-0 w-full bg-gray-900 border-none text-white p-3 shadow-lg">
                             <ul className="flex flex-col gap-4">
                                 <li>
                                     <Link href="#">
