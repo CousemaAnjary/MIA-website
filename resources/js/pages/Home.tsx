@@ -59,10 +59,10 @@ export default function Home() {
                     </section> 
                 </main>
 
-                {/*                
+                               
                 <footer>
                     <FooterSection />
-                </footer>  */}
+                </footer> 
             </div >
         </>
     )
