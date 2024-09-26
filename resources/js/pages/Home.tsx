@@ -58,8 +58,7 @@ export default function Home() {
                         <ContactSection />
                     </section> 
                 </main>
-
-                               
+                      
                 <footer>
                     <FooterSection />
                 </footer> 
