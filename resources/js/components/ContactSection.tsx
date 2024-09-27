@@ -6,6 +6,7 @@ import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod";
+import { router } from "@inertiajs/react";
 // import { Inertia } from "@inertiajs/inertia";
 
 // Type de données du formulaire
@@ -45,7 +46,7 @@ export default function ContactSection() {
      * ! COMPORTEMENT (méthodes, fonctions) de l'application
      */
     const handleSubmit = async (data: ContactType): Promise<void> => {
-        Inertia.post('/send-email', data, {
+        router.post('/send-email', data, {
             onSuccess: () => {
                 // Optionnel : Afficher un message de succès ou réinitialiser le formulaire
                 form.reset();
