@@ -43,11 +43,11 @@ export default function MissionSection() {
             <div className="py-16 px-4 md:px-16 lg:px-40 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}>
                 {/* Titre de la section */}
                 <div className="text-center md:text-left mb-12">
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start">
+                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start max-sm:justify-start">
                         <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
                         Nos missions
                     </h3>
-                    <p className="text-slate-800 text-2xl md:text-3xl lg:text-4xl font-semibold mt-4">
+                    <p className="text-slate-800 max-sm:text-start text-2xl md:text-3xl lg:text-4xl font-semibold mt-4">
                         Découvrez les missions comptables, <br />fiscales et administratives que nous offrons à nos clients
                     </p>
                 </div>

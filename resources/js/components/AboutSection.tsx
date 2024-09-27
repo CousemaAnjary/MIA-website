@@ -25,11 +25,11 @@ export default function AboutSection() {
             <div className="relative bg-neutral-50 px-4 md:px-16 lg:px-40 py-10 md:py-20 flex flex-col md:flex-row">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start">
+                    <h3 className="  text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start max-sm:justify-start">
                         <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
                         À propos de nous
                     </h3>
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-slate-800 text-center md:text-left">
+                    <h2 className="text-2xl max-sm:text-start md:text-3xl lg:text-4xl font-bold mb-4 text-slate-800 text-center md:text-left">
                         MIA, votre partenaire digital pour une comptabilité simplifiée
                     </h2>
                     <p className="text-sm md:text-base lg:text-lg text-gray-600 mb-6 text-center md:text-left">
