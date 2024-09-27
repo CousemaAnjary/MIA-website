@@ -21,8 +21,8 @@ type ContactType = {
 const formSchema = z.object({
     name: z.string().min(2, { message: "Le nom est obligatoire" }),
     email: z.string().email({ message: "L'email est obligatoire" }),
-    subject: z.string().min(5, { message: "L'objet est obligatoire" }),
-    message: z.string().min(10, { message: "Le message est obligatoire" }),
+    subject: z.string().min(2, { message: "L'objet est obligatoire" }),
+    message: z.string().min(2, { message: "Le message est obligatoire" }),
 })
 
 
@@ -49,6 +49,7 @@ export default function ContactSection() {
         router.post('/send-email', data, {
             onSuccess: () => {
                 // Optionnel : Afficher un message de succès ou réinitialiser le formulaire
+                alert("Votre message a été envoyé avec succès");
                 form.reset();
             },
             onError: (errors) => {
