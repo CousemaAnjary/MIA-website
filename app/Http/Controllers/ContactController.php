@@ -20,7 +20,7 @@ class ContactController extends Controller
         ]);
 
         // Envoyer l'e-mail
-        Mail::to('recipient@example.com')->send(new ContactMail($data));
+        Mail::to($data['email'])->send(new ContactMail($data));
 
         // Rediriger avec un message de succès via Inertia
         return Inertia::render('Contact', [

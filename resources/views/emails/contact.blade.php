@@ -9,9 +9,10 @@
 </head>
 
 <body>
+    <p>De : {{ $data['name'] }} ({{ $data['email'] }})</p>
     <h1>{{ $data['subject'] }}</h1>
     <p>{{ $data['message'] }}</p>
-    <p>De : {{ $data['name'] }} ({{ $data['email'] }})</p>
+    
 </body>
 
 </html>
