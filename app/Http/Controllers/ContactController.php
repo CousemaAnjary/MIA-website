@@ -22,9 +22,9 @@ class ContactController extends Controller
         // Envoyer l'e-mail
         Mail::to($data['email'])->send(new ContactMail($data));
 
-        // Rediriger avec un message de succès via Inertia
-        return Inertia::render('Contact', [
-            'successMessage' => 'E-mail envoyé avec succès !'
-        ]);
+        // // Rediriger avec un message de succès via Inertia
+        // return Inertia::render('ContactSection', [
+        //     'successMessage' => 'E-mail envoyé avec succès !'
+        // ]);
     }
 }

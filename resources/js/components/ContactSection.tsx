@@ -49,7 +49,7 @@ export default function ContactSection() {
         router.post('/send-email', data, {
             onSuccess: () => {
                 // Optionnel : Afficher un message de succès ou réinitialiser le formulaire
-                alert("Votre message a été envoyé avec succès");
+                console.log("Message envoyé avec succès");
                 form.reset();
             },
             onError: (errors) => {
