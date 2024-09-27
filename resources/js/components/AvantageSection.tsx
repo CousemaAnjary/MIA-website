@@ -7,9 +7,9 @@ export default function AvantageSection() {
     return (
         <>
             <div className="py-16 bg-cover bg-center text-white" style={{ backgroundImage: `url(${image2})` }}>
-                <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+                <div className=" mx-auto px-4 md:px-6 lg:px-20">
                     {/* Titre de la section */}
-                    <div className="text-start mb-12">
+                    <div className="text-start mb-12 lg:ms-20">
                         <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
                             <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
                             Nos avantages
@@ -20,9 +20,9 @@ export default function AvantageSection() {
                     </div>
 
                     {/* Grille des avantages */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
                         {/* Avantage 1 */}
-                        <Card className="bg-blue-900 text-primary-foreground">
+                        <Card className="bg-blue-900 text-primary-foreground  ">
                             <CardHeader>
                                 <CardTitle className="flex items-center space-x-2">
                                     <LightbulbIcon size={40} />

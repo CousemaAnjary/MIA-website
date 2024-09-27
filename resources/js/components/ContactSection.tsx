@@ -6,16 +6,18 @@ import { Textarea } from "./ui/textarea";
 export default function ContactSection() {
     return (
         <>
-            <div className="container my-12 mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
-                <section className="mb-32">
+            <div className=" my-12 mx-auto px-4 md:px-6 lg:px-8 ">
+                <section className="mb-32 lg:px-20">
                     {/* Titre de la section */}
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
-                        <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span>
-                        Contactez-nous
-                    </h3>
-                    <p className="text-slate-800 text-2xl md:text-3xl font-semibold mt-4">
+                    <div className="text-start mb-12 lg:px-10">
+                        <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                            <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                            Contactez-nous
+                        </h3>
+                        <p className="text-slate-800 text-2xl md:text-3xl font-semibold mt-4">
                         Vous avez une question ? Contactez-nous
-                    </p>
+                        </p>
+                    </div>
 
                     <div className="flex flex-wrap mt-10">
                         {/* Formulaire de contact */}
