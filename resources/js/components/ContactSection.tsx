@@ -81,36 +81,41 @@ export default function ContactSection() {
                         <Form {...form} >
                             <form onSubmit={form.handleSubmit(handleSubmit)} className="mb-12 w-full md:w-1/2 lg:w-5/12 px-0 md:px-3 lg:px-6">
                                 <div className="mb-4">
-                                    <FormField
-                                        control={form.control}
-                                        name="name"
-                                        render={({ field }) => (
-                                            <FormItem>
-                                                <FormLabel>Nom Complet</FormLabel>
-                                                <FormControl>
-                                                    <Input className="mt-2 shadow-sm" placeholder="Nom Complet" {...field} />
-                                                </FormControl>
-                                                <FormMessage />
-                                            </FormItem>
-                                        )}
-                                    />
+                                    <div className="grid grid-cols-2 gap-2">
+                                        <div className="grid gap-2">
+                                            <FormField
+                                                control={form.control}
+                                                name="name"
+                                                render={({ field }) => (
+                                                    <FormItem>
+                                                        <FormLabel>Nom Complet</FormLabel>
+                                                        <FormControl>
+                                                            <Input className="mt-2 shadow-sm" placeholder="Nom Complet" {...field} />
+                                                        </FormControl>
+                                                        <FormMessage />
+                                                    </FormItem>
+                                                )}
+                                            />
+                                        </div>
+
+                                        <div className="grid gap-2">
+                                            <FormField
+                                                control={form.control}
+                                                name="email"
+                                                render={({ field }) => (
+                                                    <FormItem>
+                                                        <FormLabel>Email</FormLabel>
+                                                        <FormControl>
+                                                            <Input className="mt-2 shadow-sm" placeholder="Email" {...field} />
+                                                        </FormControl>
+                                                        <FormMessage />
+                                                    </FormItem>
+                                                )}
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div className="mb-4">
-                                    <FormField
-                                        control={form.control}
-                                        name="email"
-                                        render={({ field }) => (
-                                            <FormItem>
-                                                <FormLabel>Email</FormLabel>
-                                                <FormControl>
-                                                    <Input className="mt-2 shadow-sm" placeholder="Email" {...field} />
-                                                </FormControl>
-                                                <FormMessage />
-                                            </FormItem>
-                                        )}
-                                    />
-                                </div>
                                 <div className="mb-4">
                                     <FormField
                                         control={form.control}
