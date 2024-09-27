@@ -1,9 +1,65 @@
+import { useForm } from "react-hook-form";
 import { Button } from "./ui/button";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "./ui/form";
 import { Input } from "./ui/input";
-import { Label } from "./ui/label";
+
 import { Textarea } from "./ui/textarea";
+import { zodResolver } from "@hookform/resolvers/zod"
+import { z } from "zod";
+// import { Inertia } from "@inertiajs/inertia";
+
+// Type de données du formulaire
+type ContactType = {
+    name: string;
+    email: string;
+    subject: string;
+    message: string;
+}
+
+// Définir le schéma de validation avec Zod
+const formSchema = z.object({
+    name: z.string().min(2, { message: "Le nom est obligatoire" }),
+    email: z.string().email({ message: "L'email est obligatoire" }),
+    subject: z.string().min(5, { message: "L'objet est obligatoire" }),
+    message: z.string().min(10, { message: "Le message est obligatoire" }),
+})
+
 
 export default function ContactSection() {
+    /**
+   * ! STATE (état, données) de l'application
+   */
+
+    const form = useForm<ContactType>({
+        resolver: zodResolver(formSchema),
+        defaultValues: {
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+
+        },
+    })
+
+    /**
+     * ! COMPORTEMENT (méthodes, fonctions) de l'application
+     */
+    const handleSubmit = async (data: ContactType): Promise<void> => {
+        Inertia.post('/send-email', data, {
+            onSuccess: () => {
+                // Optionnel : Afficher un message de succès ou réinitialiser le formulaire
+                form.reset();
+            },
+            onError: (errors) => {
+                // Optionnel : Gérer les erreurs
+                console.log(errors);
+            }
+        });
+    };
+
+    /**
+     * ! AFFICHAGE (render) de l'application
+     */
     return (
         <>
             <div className=" my-12 mx-auto px-4 md:px-6 lg:px-8 ">
@@ -15,32 +71,85 @@ export default function ContactSection() {
                             Contactez-nous
                         </h3>
                         <p className="text-slate-800 text-2xl md:text-3xl font-semibold mt-4">
-                        Vous avez une question ? Contactez-nous
+                            Vous avez une question ? Contactez-nous
                         </p>
                     </div>
 
                     <div className="flex flex-wrap mt-10">
                         {/* Formulaire de contact */}
-                        <form className="mb-12 w-full md:w-1/2 lg:w-5/12 px-0 md:px-3 lg:px-6">
-                            <div className="mb-4">
-                                <Label>Nom Complet</Label>
-                                <Input type="text" className="mt-2 shadow-sm" placeholder="Nom Complet" />
-                            </div>
+                        <Form {...form} >
+                            <form onSubmit={form.handleSubmit(handleSubmit)} className="mb-12 w-full md:w-1/2 lg:w-5/12 px-0 md:px-3 lg:px-6">
+                                <div className="mb-4">
+                                    <FormField
+                                        control={form.control}
+                                        name="name"
+                                        render={({ field }) => (
+                                            <FormItem>
+                                                <FormLabel>Nom Complet</FormLabel>
+                                                <FormControl>
+                                                    <Input className="mt-2 shadow-sm" placeholder="Nom Complet" {...field} />
+                                                </FormControl>
+                                                <FormMessage />
+                                            </FormItem>
+                                        )}
+                                    />
+                                </div>
 
-                            <div className="mb-4">
-                                <Label>Email</Label>
-                                <Input type="email" className="mt-2 shadow-sm" placeholder="Entrez votre adresse email" />
-                            </div>
+                                <div className="mb-4">
+                                    <FormField
+                                        control={form.control}
+                                        name="email"
+                                        render={({ field }) => (
+                                            <FormItem>
+                                                <FormLabel>Email</FormLabel>
+                                                <FormControl>
+                                                    <Input className="mt-2 shadow-sm" placeholder="Email" {...field} />
+                                                </FormControl>
+                                                <FormMessage />
+                                            </FormItem>
+                                        )}
+                                    />
+                                </div>
+                                <div className="mb-4">
+                                    <FormField
+                                        control={form.control}
+                                        name="subject"
+                                        render={({ field }) => (
+                                            <FormItem>
+                                                <FormLabel>Objet</FormLabel>
+                                                <FormControl>
+                                                    <Input className="mt-2 shadow-sm" placeholder="Objet" {...field} />
+                                                </FormControl>
+                                                <FormMessage />
+                                            </FormItem>
+                                        )}
+                                    />
+                                </div>
 
-                            <div className="mb-4">
-                                <Label>Objet</Label>
-                                <Textarea placeholder="Objet de votre message" className="mt-2 shadow-sm h-32" />
-                            </div>
+                                <div className="mb-4">
+                                    <FormField
+                                        control={form.control}
+                                        name="message"
+                                        render={({ field }) => (
+                                            <FormItem>
+                                                <FormLabel>Message</FormLabel>
+                                                <FormControl>
+                                                    <Textarea className="mt-2 shadow-sm h-32" placeholder="Message" {...field} />
+                                                </FormControl>
+                                                <FormMessage />
+                                            </FormItem>
+                                        )}
+                                    />
+                                    {/* <Label>Objet</Label>
+                                    <Textarea placeholder="Objet de votre message" className="mt-2 shadow-sm h-32" /> */}
+                                </div>
 
-                            <Button className="w-full bg-blue-900 hover:bg-blue-800 mt-4">
-                                Envoyer
-                            </Button>
-                        </form>
+                                <Button className="w-full bg-blue-900 hover:bg-blue-800 mt-4">
+                                    Envoyer
+                                </Button>
+                            </form>
+                        </Form>
+
 
                         {/* Informations de contact */}
                         <div className="w-full md:w-1/2 lg:w-7/12 px-0 md:px-3 lg:px-6">
