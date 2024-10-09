@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import about from '../assets/images/about.png'
 import { FiMinus, FiPlus } from 'react-icons/fi'
+import logo from '../assets/images/logo.png';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 
 
@@ -22,17 +23,17 @@ export default function AboutSection() {
      */
     return (
         <>
-            <div className="relative bg-neutral-50 px-4 md:px-16 lg:px-40 py-10 md:py-20 flex flex-col md:flex-row">
+            <div className="relative bg-blue-900 px-4 md:px-16 lg:px-40 py-10 md:py-20 flex flex-col md:flex-row ">
                 {/* Section Texte */}
                 <div className="md:w-1/2">
-                    <h3 className="  text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start max-sm:justify-start">
-                        <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                    <h3 className="  text-white font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start max-sm:justify-start">
+                        <span className="inline-block w-10 h-0.5 bg-white mr-2"></span> {/* Ligne à gauche */}
                         À propos de nous
                     </h3>
-                    <h2 className="text-2xl max-sm:text-start md:text-3xl lg:text-4xl font-bold mb-4 text-slate-800 text-center md:text-left">
+                    {/* <h2 className="text-2xl max-sm:text-start md:text-3xl lg:text-4xl font-bold mb-4 text-slate-800 text-center md:text-left">
                         MIA, votre partenaire digital pour une comptabilité simplifiée
-                    </h2>
-                    <p className="text-sm md:text-base lg:text-lg text-gray-600 mb-6 text-center md:text-left">
+                    </h2> */}
+                    <p className="text-sm md:text-base lg:text-lg text-slate-300 mb-6 text-center md:text-left">
                         MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de sous-traitance pour les PME et cabinets comptables. Avec plus de 10 ans d'expérience, nous sommes le partenaire digital idéal pour accompagner la croissance de votre entreprise en France.
                     </p>
                     {/* Accordéon / Liste des services */}
@@ -77,7 +78,7 @@ export default function AboutSection() {
 
                 {/* Section Image */}
                 <div className="md:w-1/2 mt-10 md:mt-0 md:ml-10">
-                    <img src={about} alt="MIA Consulting" className="shadow-lg w-full h-auto object-cover" />
+                    <img src={logo} alt="MIA Consulting" className=" w-full h-auto object-cover" />
                 </div>
             </div>
         </>
