@@ -24,10 +24,10 @@ export default function Navbar() {
      */
     return (
         <>
-            <nav className="container-fluid relative flex justify-between lg:justify-center xl:justify-between items-center p-2 lg:p-5 xl:p-1">
+            <nav className="container-fluid  relative flex justify-between lg:justify-center xl:justify-between items-center p-2 lg:p-5 xl:p-1">
                 {/* Logo */}
                 <div className="logo ml-4 lg:ml-16">
-                    <img className="w-24 lg:hidden xl:w-32 xl:block" src={logo} alt="logo" />
+                    <img className="w-24 lg:hidden xl:w-64 xl:block " src={logo} alt="logo" />
                 </div>
 
                 {/* Menu Toggle Button for Mobile */}
