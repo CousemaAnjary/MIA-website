@@ -4,15 +4,15 @@ import evolution from '../assets/images/evolution.png';
 
 export default function ValeurSection() {
     return (
-        <div className="bg-neutral-50 py-16">
+        <div className="bg-blue-950 py-16">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
                 {/* Section Titre */}
                 <div className="text-start mb-12">
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
-                        <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                    <h3 className="text-white font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                        <span className="inline-block w-10 h-0.5 bg-white mr-2"></span> {/* Ligne à gauche */}
                         Nos valeurs
                     </h3>
-                    <p className="text-slate-800 text-2xl md:text-3xl font-semibold mt-4">
+                    <p className="text-white text-2xl md:text-3xl font-semibold mt-4">
                         Nos Principes Fondamentaux
                     </p>
                 </div>

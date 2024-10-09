@@ -6,15 +6,15 @@ import image4 from '../assets/images/image4.png';
 export default function AvantageSection() {
     return (
         <>
-            <div className="py-16 bg-cover bg-center text-white" style={{ backgroundImage: `url(${image2})` }}>
+            <div className="py-16 bg-cover bg-center text-white bg-blue-950" >
                 <div className=" mx-auto px-4 md:px-6 lg:px-20">
                     {/* Titre de la section */}
                     <div className="text-start mb-12 lg:ms-20">
-                        <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">
-                            <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                        <h3 className="text-white font-mono font-semibold text-xl uppercase mb-5 flex items-center">
+                            <span className="inline-block w-10 h-0.5 bg-white mr-2"></span> {/* Ligne à gauche */}
                             Nos avantages
                         </h3>
-                        <p className="text-slate-800 text-2xl md:text-3xl font-semibold mt-4">
+                        <p className="text-white text-2xl md:text-3xl font-semibold mt-4">
                             Découvrez les avantages de travailler avec nous
                         </p>
                     </div>

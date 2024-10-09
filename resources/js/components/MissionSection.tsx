@@ -40,22 +40,22 @@ export default function MissionSection() {
 
     return (
         <>
-            <div className="py-16 px-4 md:px-16 lg:px-40 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}>
+            <div className="py-16 px-4 md:px-16 lg:px-40 bg-cover bg-center bg-blue-950">
                 {/* Titre de la section */}
                 <div className="text-center md:text-left mb-12">
-                    <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start max-sm:justify-start">
-                        <span className="inline-block w-10 h-0.5 bg-blue-900 mr-2"></span> {/* Ligne à gauche */}
+                    <h3 className="text-white font-mono font-semibold text-xl uppercase mb-5 flex items-center justify-center md:justify-start max-sm:justify-start">
+                        <span className="inline-block w-10 h-0.5 bg-white mr-2"></span> {/* Ligne à gauche */}
                         Nos missions
                     </h3>
-                    <p className="text-slate-800 max-sm:text-start text-2xl md:text-3xl lg:text-4xl font-semibold mt-4">
+                    {/* <p className="text-slate-800 max-sm:text-start text-2xl md:text-3xl lg:text-4xl font-semibold mt-4">
                         Découvrez les missions comptables, <br />fiscales et administratives que nous offrons à nos clients
-                    </p>
+                    </p> */}
                 </div>
 
                 {/* Grille des missions */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Missions comptables */}
-                    <Card className="hover:shadow-md transition-shadow duration-300">
+                    <Card className="hover:shadow-md transition-shadow duration-300 bg-slate-50">
                         <CardHeader className="text-center">
                             <img src={comptable} alt="" className='mx-auto w-16 md:w-20 mb-4' />
                             <CardTitle className="text-slate-800 text-xl md:text-2xl font-bold mb-4">Missions comptables</CardTitle>
@@ -85,7 +85,7 @@ export default function MissionSection() {
                     </Card>
 
                     {/* Missions fiscales */}
-                    <Card className="hover:shadow-md transition-shadow duration-300">
+                    <Card className="hover:shadow-md transition-shadow duration-300 bg-slate-50">
                         <CardHeader className="text-center">
                             <img src={tax} alt="" className='mx-auto w-16 md:w-20 mb-4' />
                             <CardTitle className="text-slate-800 text-xl md:text-2xl font-bold mb-4">Missions fiscales</CardTitle>
@@ -102,7 +102,7 @@ export default function MissionSection() {
                     </Card>
 
                     {/* Missions administratives */}
-                    <Card className="hover:shadow-md transition-shadow duration-300">
+                    <Card className="hover:shadow-md transition-shadow duration-300 bg-slate-50">
                         <CardHeader className="text-center">
                             <img src={admin} alt="" className='mx-auto w-16 md:w-20 mb-4' />
                             <CardTitle className="text-slate-800 text-xl md:text-2xl font-bold mb-4">Missions administratives</CardTitle>

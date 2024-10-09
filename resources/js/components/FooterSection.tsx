@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.png';
 
 export default function FooterSection() {
     return (
-        <footer className="bg-blue-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <footer className="bg-blue-950 text-white py-12 px-4 sm:px-6 lg:px-8 border-t">
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 mb-8">
                 {/* Section Logo et description */}
                 <div className="sm:col-span-2 flex flex-col items-center sm:items-center">

@@ -64,8 +64,8 @@ export default function ContactSection() {
      */
     return (
         <>
-            <div className=" my-12 mx-auto px-4 md:px-6 lg:px-8 ">
-                <section className="mb-32 lg:px-20">
+            <div className="mx-auto px-4 md:px-6 lg:px-8 bg-blue-950">
+                <section className=" lg:px-20">
                     {/* Titre de la section */}
                     <div className="text-start mb-12 lg:px-10">
                         <h3 className="text-blue-900 font-mono font-semibold text-xl uppercase mb-5 flex items-center">

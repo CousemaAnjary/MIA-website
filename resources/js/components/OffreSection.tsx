@@ -50,7 +50,7 @@ export default function OffreSection() {
     ];
 
     return (
-        <div className="py-16 text-white bg-cover bg-center" style={{ backgroundImage: `url(${image3})` }}>
+        <div className="py-16 text-white bg-cover bg-center bg-blue-950">
             {/* Titre de la section */}
             <div className="px-4 md:px-16 lg:px-40">
                 <h3 className="font-mono font-semibold text-xl uppercase mb-5 flex items-center">
