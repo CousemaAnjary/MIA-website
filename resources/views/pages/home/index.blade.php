@@ -9,7 +9,8 @@
     <div class="">
         {{-- En-tête --}}
         <header>
-            @include('partials.navbar') <!-- Navbar incluse ici -->
+            @include('partials.navbar') 
+            @include('partials.hero_section') 
         </header>
 
         {{-- Contenu --}}
