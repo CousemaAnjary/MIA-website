@@ -6,6 +6,9 @@
             <h3 class="text-dark font-weight-bold text-uppercase mb-4">
                 <span class="border-bottom border-dark pb-2">Contactez-nous</span>
             </h3>
+            <p class="fst-italic">
+                Votre client mérite votre temps, laissez-nous vous aider avec rigueur et discrétion.
+            </p>
             <p class="lead">N'hésitez pas à nous contacter pour toute question ou demande de renseignements</p>
         </div>
 

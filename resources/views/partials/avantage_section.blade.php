@@ -6,6 +6,10 @@
             <h3 class="text-dark font-weight-bold text-uppercase mb-4">
                 <span class="border-bottom border-dark pb-2">Nos avantages</span>
             </h3>
+            <p class="fst-italic text-center">
+                Vous méritez que vos rêves grandissent et que votre cabinet fleurisse, confiez-nous une partie de
+                l'organisation et retrouvez votre passion.
+            </p>
             <p class="lead">Découvrez les valeurs qui nous animent au quotidien</p>
         </div>
 

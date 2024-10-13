@@ -1,5 +1,6 @@
 <div class="about-section py-5">
-    <div class="container d-flex flex-column flex-md-row align-items-center gap-5"> <!-- Ajout de gap-3 pour réduire l'espace -->
+    <div class="container d-flex flex-column flex-md-row align-items-center gap-5">
+        <!-- Ajout de gap-3 pour réduire l'espace -->
         <!-- Texte -->
         <div class="col-md-6">
             <h3 class="text-uppercase font-weight-bold mb-4">
@@ -12,6 +13,10 @@
                 MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de
                 sous-traitance pour les PME et cabinets comptables. Avec plus de 10 ans d'expérience, nous sommes le
                 partenaire digital idéal pour accompagner la croissance de votre entreprise en France.
+            </p>
+
+            <p class="fst-italic">
+                Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression.
             </p>
 
             <!-- Accordéon -->

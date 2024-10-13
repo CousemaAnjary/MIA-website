@@ -1,5 +1,6 @@
 <footer class="bg-dark text-white py-5">
     <div class="container">
+        
         <div class="row mb-5">
             <!-- Section Logo et description -->
             <div class="col-lg-4 mb-4">

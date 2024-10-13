@@ -4,6 +4,9 @@
         <h3 class="text-uppercase font-weight-bold mb-4">
             <span class="border-bottom border-light">Nos offres</span>
         </h3>
+        <p class="fst-italic">
+            Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, bâtissons l'avenir de votre grandeur.
+        </p>
         <p class="lead">
             Découvrez nos <br /> différentes offres adaptées à vos besoins
         </p>
