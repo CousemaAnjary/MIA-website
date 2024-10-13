@@ -1,15 +1,14 @@
-<div class="py-5  ">
+<div class="text-white py-5" style="background-color: #03224c">
     <!-- Titre de la section -->
     <div class="container">
-        <h3 class="text-uppercase font-weight-bold mb-4">
-            <span class="border-bottom border-light">Nos offres</span>
+        <h3 class="text-uppercase  mb-4">
+            <span class="border-bottom fw-bold  border-white">Nos offres</span>
         </h3>
-        <p class="fst-italic">
-            Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, bâtissons l'avenir de votre grandeur.
+        <p class="fs-5">
+            Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de votre
+            grandeur.
         </p>
-        <p class="lead">
-            Découvrez nos <br /> différentes offres adaptées à vos besoins
-        </p>
+
     </div>
 
     <!-- Grille des offres -->
@@ -22,11 +21,7 @@
                         'name' => 'BRONZE',
                         'price' => '800€',
                         'title' => '1 collaborateur junior :',
-                        'description' => [
-                            'Saisie et traitement',
-                            'Nécessite une révision au bout',
-                            'Français moyen',
-                        ],
+                        'description' => ['Saisie et traitement', 'Nécessite une révision au bout', 'Français moyen'],
                         'featured' => false,
                     ],
                     [
@@ -44,11 +39,7 @@
                         'name' => 'GOLD',
                         'price' => '1750€',
                         'title' => '1 binôme senior + junior :',
-                        'description' => [
-                            'Traitement et révision',
-                            'Français excellent',
-                            'Rapport d\'activité inclus',
-                        ],
+                        'description' => ['Traitement et révision', 'Français excellent', 'Rapport d\'activité inclus'],
                         'featured' => true,
                     ],
                     [
@@ -66,24 +57,25 @@
             @endphp
 
             @foreach ($tiers as $tier)
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100 {{ $tier['featured'] ? 'border-warning' : '' }}">
+                <div class="col-md-6 mb-4" >
+                    <div class="card h-100 border {{ $tier['featured'] ? 'border-warning' : '' }}" style="background: transparent">
                         <div class="card-body">
-                            <h4 class="card-title font-weight-bold">{{ $tier['name'] }}</h4>
+                            <h4 class="card-title ">{{ $tier['name'] }}</h4>
 
                             @if ($tier['featured'])
-                                <span class="badge bg-warning text-dark position-absolute" style="top: 20px;">Populaire</span>
+                                <span class="badge bg-warning text-dark position-absolute"
+                                    style="top: 20px;">Populaire</span>
                             @endif
 
-                            <p class="mt-3 display-4 font-weight-bold">{{ $tier['price'] }}</p>
+                            <p class="mt-3 display-4 fw-bold ">{{ $tier['price'] }}</p>
 
                             @if (isset($tier['title']))
-                                <p class="mt-4 font-weight-bold">{{ $tier['title'] }}</p>
+                                <p class="mt-4 fw-bold ">{{ $tier['title'] }}</p>
                             @endif
 
                             <ul class="list-unstyled mt-4">
                                 @foreach ($tier['description'] as $feature)
-                                    <li class="d-flex align-items-center mb-2">
+                                    <li class="d-flex align-items-center mb-2 gap-2">
                                         <i class="fas fa-check-circle text-success mr-2"></i>
                                         <span>{{ $feature }}</span>
                                     </li>

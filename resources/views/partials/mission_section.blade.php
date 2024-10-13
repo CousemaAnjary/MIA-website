@@ -1,4 +1,4 @@
-<div class="text-white py-5"style="background-color: #03224c">
+<div class="text-white py-5" style="background-color: #03224c">
     <!-- Conteneur start -->
     <div class="container text-start mb-5">
         <!-- Titre de la section -->
