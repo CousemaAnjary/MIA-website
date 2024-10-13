@@ -1,7 +1,7 @@
 <div class="container d-flex flex-column justify-content-center align-items-start h-100 text-start text-white">
-    <h1 class=" font-weight-bold mb-4">
-        Nous déléguer une partie de vos activités, <br> c'est gagner du temps pour mieux accompagner vos précieux
-        clients
+    <h1 class="fw-bold mb-4">
+        Nous déléguer <br /> une partie de vos activités <br /> c'est gagner du temps pour mieux accompagner vos
+        précieux clients.
     </h1>
 
     <div class="mt-4 d-flex flex-column flex-md-row justify-content-start gap-3">
