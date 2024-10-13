@@ -1,14 +1,12 @@
-<div class="bg-primary py-5">
+<div class=" py-5">
     <div class="container">
         <!-- Section Titre -->
-        <div class="mb-5 text-white">
-            <h3 class="text-uppercase font-weight-bold mb-4 d-flex align-items-center">
-                <span class="border-bottom border-light mr-2" style="width: 50px;"></span> 
-                Nos valeurs
+        <div class="container text-start mb-5">
+            <!-- Titre de la section -->
+            <h3 class="text-dark font-weight-bold text-uppercase mb-4">
+                <span class="border-bottom border-dark pb-2">Nos valeurs</span>
             </h3>
-            <p class="lead">
-                Nos Principes Fondamentaux
-            </p>
+            <p class="lead">Découvrez les valeurs qui nous animent au quotidien</p>
         </div>
 
         <!-- Section Valeurs -->
@@ -30,7 +28,8 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-body">
-                        <img src="{{ asset('images/evolution.png') }}" alt="Évolution" class="mx-auto d-block w-25 mb-3">
+                        <img src="{{ asset('images/evolution.png') }}" alt="Évolution"
+                            class="mx-auto d-block w-25 mb-3">
                         <h4 class="card-title text-primary font-weight-bold">L'évolution continue</h4>
                         <p class="card-text mt-3">
                             Apprendre et grandir ensemble, cultiver l'excellence.
@@ -46,7 +45,8 @@
                         <img src="{{ asset('images/help.png') }}" alt="Dévouement" class="mx-auto d-block w-25 mb-3">
                         <h4 class="card-title text-primary font-weight-bold">Le dévouement</h4>
                         <p class="card-text mt-3">
-                            Donner du temps, de l'expérience et de la compétence, aller au bout du contrat, aller au bout de soi.
+                            Donner du temps, de l'expérience et de la compétence, aller au bout du contrat, aller au
+                            bout de soi.
                         </p>
                     </div>
                 </div>

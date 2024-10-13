@@ -1,5 +1,5 @@
 <div class="py-5">
-    <!-- Conteneur centré -->
+    <!-- Conteneur start -->
     <div class="container text-start mb-5">
         <!-- Titre de la section -->
         <h3 class="text-dark font-weight-bold text-uppercase mb-4">
