@@ -6,10 +6,11 @@
 {{-- Contenu --}}
 @section('content')
 
-
     <div class="">
         {{-- En-tête --}}
-        <header></header>
+        <header>
+            @include('partials.navbar') <!-- Navbar incluse ici -->
+        </header>
 
         {{-- Contenu --}}
         <main></main>
@@ -17,6 +18,5 @@
         {{-- Pied de page --}}
         <footer></footer>
     </div>
-
 
 @endsection
