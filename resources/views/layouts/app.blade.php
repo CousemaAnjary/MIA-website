@@ -18,15 +18,12 @@
 
 </head>
 
-<body class="bg-gray-100 text-gray-900">
+<body>
 
     <!-- Contenu spécifique à chaque page -->
     <div>
         @yield('content')
     </div>
-
-    <!-- Scripts JavaScript si nécessaire -->
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.5.0/dist/cdn.min.js" defer></script>
 
 </body>
 
