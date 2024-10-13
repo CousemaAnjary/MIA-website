@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('images/logo.png') }}" alt="MIA" width="100">
+            <img src="{{ asset('images/logo.png') }}" alt="MIA" width="200">
         </a>
 
         <!-- Bouton pour le menu mobile -->
@@ -12,7 +12,7 @@
 
         <!-- Liens du menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto gap-4">
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> À propos de nous</a>
                 </li>
