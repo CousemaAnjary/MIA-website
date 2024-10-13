@@ -1,5 +1,5 @@
-<div class="hero-section container d-flex flex-column justify-content-center align-items-start h-100 text-start text-white">
-    <h1 class="fw-bold mb-4">
+<div class="container d-flex flex-column justify-content-center align-items-start h-100 text-start text-white">
+    <h1 class="fw-bolder mb-4">
         Nous déléguer <br /> une partie de vos activités <br /> c'est gagner du temps pour mieux accompagner vos
         précieux clients
     </h1>
