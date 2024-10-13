@@ -18,30 +18,30 @@
                 <form method="POST" action="/send-email">
                     @csrf <!-- Laravel directive for CSRF protection -->
                     <div class="mb-4">
-                        <label for="name" class="form-label font-weight-bold">Nom Complet</label>
-                        <input type="text" class="form-control shadow-sm rounded" id="name" name="name"
+                        <label for="name" class="form-label fw-bold">Nom Complet</label>
+                        <input type="text" class="form-control shadow-sm rounded text-white" id="name" name="name"
                             placeholder="Votre nom" required style="background: transparent">
                     </div>
 
                     <div class="mb-4">
-                        <label for="email" class="form-label font-weight-bold">Email</label>
-                        <input type="email" class="form-control shadow-sm rounded" id="email" name="email"
+                        <label for="email" class="form-label fw-bold">Email</label>
+                        <input type="email" class="form-control shadow-sm rounded text-white" id="email" name="email"
                             placeholder="Votre email" required style="background: transparent">
                     </div>
 
                     <div class="mb-4">
-                        <label for="subject" class="form-label font-weight-bold">Objet</label>
-                        <input type="text" class="form-control shadow-sm rounded" id="subject" name="subject"
+                        <label for="subject" class="form-label fw-bold">Objet</label>
+                        <input type="text" class="form-control shadow-sm rounded text-white" id="subject" name="subject"
                             placeholder="Objet" required style="background: transparent">
                     </div>
 
                     <div class="mb-4">
-                        <label for="message" class="form-label font-weight-bold">Message</label>
+                        <label for="message" class="form-label fw-bold text-white">Message</label>
                         <textarea class="form-control shadow-sm rounded" id="message" name="message" rows="4"
                             placeholder="Votre message" required style="background: transparent"></textarea>
                     </div>
 
-                    <button type="submit" class="btn  btn-lg w-100 shadow-sm text-white" style="background-color: #002c69">Envoyer</button>
+                    <button type="submit" class="btn btn-lg w-100 shadow-sm text-white fw-bold" style="background-color: #002c69">Envoyer</button>
                 </form>
             </div>
 
@@ -55,7 +55,7 @@
                                 <i class="fas fa-phone fa-lg"></i>
                             </div>
                             <div class="ms-3">
-                                <p class="mb-1 font-weight-bold">Whatsapp</p>
+                                <p class="mb-1 fw-bold">Whatsapp</p>
                                 <p class="text-muted">+261 37 64 883 52</p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                 <i class="fas fa-envelope fa-lg"></i>
                             </div>
                             <div class="ms-3">
-                                <p class="mb-1 font-weight-bold">Adresse email</p>
+                                <p class="mb-1 fw-bold">Adresse email</p>
                                 <p class="text-muted">contactmia@mia.fr </p>
                             </div>
                         </div>

@@ -2,7 +2,7 @@
     <!-- Conteneur start -->
     <div class="container text-start mb-5">
         <!-- Titre de la section -->
-        <h3 class="text-uppercase font-weight-bold mb-4">
+        <h3 class="text-uppercase fw-bold mb-4">
             <span class="border-bottom fw-bold border-white pb-1">Nos missions</span>
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic">
@@ -19,7 +19,7 @@
                 <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
                     <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/comptable.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title font-weight-bold text-white">Missions comptables</h5>
+                        <h5 class="card-title fw-bold text-white">Missions comptables</h5>
                     </div>
                     <div class="card-body ">
                         <ul>
@@ -44,7 +44,7 @@
                 <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
                     <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/tax.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title text-dark  text-white">Missions fiscales</h5>
+                        <h5 class="card-title fw-bold  text-white">Missions fiscales</h5>
                     </div>
                     <div class="card-body">
                         <ul>
@@ -63,7 +63,7 @@
                 <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
                     <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/admin.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title text-dark font-weight-bold text-white">Missions administratives</h5>
+                        <h5 class="card-title text-dark fw-bold text-white">Missions administratives</h5>
                     </div>
                     <div class="card-body">
                         <ul>
