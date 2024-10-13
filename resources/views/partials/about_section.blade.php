@@ -1,9 +1,9 @@
 <div class="about-section py-5">
-    <div class="container d-flex flex-column flex-md-row">
+    <div class="container d-flex flex-column flex-md-row align-items-center gap-5"> <!-- Ajout de gap-3 pour réduire l'espace -->
         <!-- Texte -->
-        <div class="md:w-1/2">
+        <div class="col-md-6">
             <h3 class="text-uppercase font-weight-bold mb-4">
-                <span class="line"></span> À propos de nous
+                <span class="border-bottom border-primary pb-1">À propos de nous</span>
             </h3>
             <h2 class="font-weight-bold mb-3">
                 MIA, votre partenaire digital pour une comptabilité simplifiée
@@ -68,7 +68,7 @@
         </div>
 
         <!-- Image -->
-        <div class="md:w-1/2 mt-4 mt-md-0">
+        <div class="col-md-6 mt-4 mt-md-0">
             <img src="{{ asset('images/about.png') }}" alt="À propos de MIA" class="img-fluid rounded">
         </div>
     </div>
