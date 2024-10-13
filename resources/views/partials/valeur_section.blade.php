@@ -6,9 +6,9 @@
             <h3 class="text-uppercase mb-4">
                 <span class="border-bottom fw-bold border-white">Nos valeurs</span>
             </h3>
-            <p class="fs-5">
-                Vous méritez un partenaire fiable pour sous-traiter vos missions comptables <br> et ainsi offrir à vos
-                clients un accompagnement irréprochable.
+            <p class="text-white fw-medium fs-5 fst-italic">
+                " Vous méritez un partenaire fiable pour sous-traiter vos missions comptables <br> et ainsi offrir à vos
+                clients un accompagnement irréprochable "
                 </p>
         </div>
 

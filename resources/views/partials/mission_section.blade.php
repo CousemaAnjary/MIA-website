@@ -5,8 +5,8 @@
         <h3 class="text-uppercase font-weight-bold mb-4">
             <span class="border-bottom fw-bold border-white pb-1">Nos missions</span>
         </h3>
-        <p class=" fs-5">
-            Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut.
+        <p class="text-white fw-medium fs-5 fst-italic">
+           " Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut "
         </p>
         {{-- <p class="lead">Découvrez les missions comptables, fiscales et administratives que nous offrons à nos clients</p> --}}
     </div>

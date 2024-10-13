@@ -3,21 +3,21 @@
         <!-- Ajout de gap-3 pour réduire l'espace -->
         <!-- Texte -->
         <div class="col-md-6">
-            <h3 class="text-uppercase font-weight-bold mb-4">
+            <h3 class="text-uppercase  mb-4">
                 <span class="border-bottom fw-bold border-white pb-1">À propos de nous</span>
             </h3>
             {{-- <h2 class="font-weight-bold mb-3">
                 MIA, votre partenaire digital pour une comptabilité simplifiée
             </h2> --}}
-            <p class=" fs-5">
-                Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression.
+            <p class="text-white fw-medium fs-5 fst-italic">
+                " Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression "
             </p>
-            <p class="text-muted mb-4">
+            <p class=" mb-4" style="color: #b1b1b1;">
                 MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de
                 sous-traitance pour les PME et cabinets comptables. Avec plus de 10 ans d'expérience, nous sommes le
                 partenaire digital idéal pour accompagner la croissance de votre entreprise en France.
             </p>
-            <p class="text-muted mb-4">
+            <p class=" mb-4" style="color: #b1b1b1;">
                 Elle est née de la passion de deux personnes qui ont décidé de s’associer après plus de dix années
                 d’expérience en
                 salariat dans le domaine de la comptabilité française. Elle veut apporter une pierre à l’édifice en
@@ -26,7 +26,7 @@
                 recruter des
                 cabinets comptables en France.
             </p>
-            <p class="text-muted mb-4">
+            <p class=" mb-4" style="color: #b1b1b1;">
                 MIA met à votre disposition plusieurs profils de collaborateurs en fonction de vos besoins pour traiter
                 de la meilleure
                 façon possible les tâches qui nous seront confiées.

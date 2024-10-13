@@ -4,9 +4,9 @@
         <h3 class="text-uppercase  mb-4">
             <span class="border-bottom fw-bold border-white">Nos offres</span>
         </h3>
-        <p class="fs-5">
-            Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de votre
-            grandeur.
+        <p class="text-white fw-medium fs-5 fst-italic">
+            " Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de votre
+            grandeur "
         </p>
 
     </div>
