@@ -20,6 +20,9 @@
         <main>
             {{-- Section À propos de nous --}}
             @include('partials.about_section')
+
+            {{-- Section Nos missions --}}
+            @include('partials.mission_section')
         </main>
 
         {{-- Pied de page --}}
