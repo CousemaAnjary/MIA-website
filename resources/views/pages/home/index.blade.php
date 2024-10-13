@@ -23,10 +23,25 @@
 
             {{-- Section Nos missions --}}
             @include('partials.mission_section')
+
+            {{-- Section Nos offres --}}
+            @include('partials.offre_section')
+
+            {{-- Section Nos valeurs --}}
+            @include('partials.valeur_section')
+
+            {{-- Section Nos valeurs --}}
+            @include('partials.avantage_section')
+
+            {{-- Section contact --}}
+            @include('partials.contact_section')
+
         </main>
 
         {{-- Pied de page --}}
-        <footer></footer>
+        <footer>
+            @include('partials.footer')
+        </footer>
     </div>
 
 @endsection
