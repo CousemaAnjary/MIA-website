@@ -1,8 +1,11 @@
 @extends('layouts.app')
 
 {{-- Titre de la page --}}
-@yield('title', 'Accueil')
+@section('title', 'Bienvenue sur MIA')
 
 {{-- Contenu --}}
 @section('content')
+
+
+
 @endsection
