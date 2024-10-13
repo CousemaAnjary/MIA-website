@@ -1,15 +1,14 @@
-<div class=" py-5">
+<div class=" text-white py-5" style="background-color: #03224c">
     <div class="container">
         <!-- Section Title -->
         <div class="container text-start mb-5">
             <!-- Titre de la section -->
-            <h3 class="text-dark font-weight-bold text-uppercase mb-4">
-                <span class="border-bottom border-dark pb-2">Contactez-nous</span>
+            <h3 class="text-uppercase mb-4">
+                <span class="border-bottom fw-bold border-white">Contactez-nous</span>
             </h3>
-            <p class="fst-italic">
+            <p class="fs-5">
                 Votre client mérite votre temps, laissez-nous vous aider avec rigueur et discrétion.
             </p>
-            <p class="lead">N'hésitez pas à nous contacter pour toute question ou demande de renseignements</p>
         </div>
 
         <!-- Contact Form and Contact Info -->

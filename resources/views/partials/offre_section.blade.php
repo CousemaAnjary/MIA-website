@@ -64,7 +64,7 @@
 
                             @if ($tier['featured'])
                                 <span class="badge bg-warning text-dark position-absolute"
-                                    style="top: 20px;">Populaire</span>
+                                    style="top: 20px;">Best seller</span>
                             @endif
 
                             <p class="mt-3 display-4 fw-bold ">{{ $tier['price'] }}</p>

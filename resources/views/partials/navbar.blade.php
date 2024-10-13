@@ -12,21 +12,21 @@
 
         <!-- Liens du menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-4">
+            <ul class="navbar-nav ms-auto  gap-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> À propos de nous</a>
+                    <a class="nav-link text-white" href="#"><i class="fas fa-info-circle"></i> À propos de nous</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Nos missions</a>
+                    <a class="nav-link text-white" href="#"><i class="fas fa-tasks"></i> Nos missions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-gift"></i> Nos offres</a>
+                    <a class="nav-link text-white" href="#"><i class="fas fa-gift"></i> Nos offres</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-hands-helping"></i> Nos valeurs</a>
+                    <a class="nav-link text-white" href="#"><i class="fas fa-hands-helping"></i> Nos valeurs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-check-circle"></i> Nos avantages</a>
+                    <a class="nav-link text-white" href="#"><i class="fas fa-check-circle"></i> Nos avantages</a>
                 </li>
             </ul>
         </div>
