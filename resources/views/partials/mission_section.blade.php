@@ -1,29 +1,29 @@
-<div class="py-5">
+<div class="text-white py-5"style="background-color: #03224c">
     <!-- Conteneur start -->
     <div class="container text-start mb-5">
         <!-- Titre de la section -->
-        <h3 class="text-dark font-weight-bold text-uppercase mb-4">
-            <span class="border-bottom border-dark pb-2">Nos missions</span>
+        <h3 class="text-uppercase font-weight-bold mb-4">
+            <span class="border-bottom fw-bold border-white pb-1">Nos missions</span>
         </h3>
-        <p class="fst-italic">
+        <p class=" fs-5">
             Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut.
         </p>
-        <p class="lead">Découvrez les missions comptables, fiscales et administratives que nous offrons à nos clients</p>
+        {{-- <p class="lead">Découvrez les missions comptables, fiscales et administratives que nous offrons à nos clients</p> --}}
     </div>
 
     <!-- Grille des missions -->
     <div class="container">
         <div class="row g-4">
             <!-- Missions comptables -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 rounded-lg">
-                    <div class="card-header text-center bg-light rounded-top">
+            <div class="col-md-4 mb-4 ">
+                <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
+                    <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/comptable.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title text-dark font-weight-bold">Missions comptables</h5>
+                        <h5 class="card-title font-weight-bold text-white">Missions comptables</h5>
                     </div>
-                    <div class="card-body">
-                        <ul class="list-unstyled text-muted">
-                            <li><strong>Tenue complète de la comptabilité :</strong>
+                    <div class="card-body ">
+                        <ul>
+                            <li>Tenue complète de la comptabilité :
                                 <ul>
                                     <li>Récupération des pièces</li>
                                     <li>Traitement des pièces (classement, saisie)</li>
@@ -41,13 +41,13 @@
 
             <!-- Missions fiscales -->
             <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 rounded-lg">
-                    <div class="card-header text-center bg-light rounded-top">
+                <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
+                    <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/tax.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title text-dark font-weight-bold">Missions fiscales</h5>
+                        <h5 class="card-title text-dark  text-white">Missions fiscales</h5>
                     </div>
                     <div class="card-body">
-                        <ul class="list-unstyled text-muted">
+                        <ul>
                             <li>Préparation de la TVA</li>
                             <li class="mt-3">Télédéclaration à la demande du client</li>
                             <li class="mt-3">Préparation de la liasse fiscale</li>
@@ -60,13 +60,13 @@
 
             <!-- Missions administratives -->
             <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 rounded-lg">
-                    <div class="card-header text-center bg-light rounded-top">
+                <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
+                    <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/admin.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title text-dark font-weight-bold">Missions administratives</h5>
+                        <h5 class="card-title text-dark font-weight-bold text-white">Missions administratives</h5>
                     </div>
                     <div class="card-body">
-                        <ul class="list-unstyled text-muted">
+                        <ul>
                             <li>Saisie de données</li>
                             <li class="mt-3">Service après-vente</li>
                             <li class="mt-3">Relance client</li>

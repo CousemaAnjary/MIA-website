@@ -9,7 +9,7 @@
             {{-- <h2 class="font-weight-bold mb-3">
                 MIA, votre partenaire digital pour une comptabilité simplifiée
             </h2> --}}
-            <p class="fst-italic fs-5">
+            <p class=" fs-5">
                 Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression.
             </p>
             <p class="text-muted mb-4">
