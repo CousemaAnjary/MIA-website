@@ -2,7 +2,7 @@
     <!-- Titre de la section -->
     <div class="container">
         <h3 class="text-uppercase  mb-4">
-            <span class="border-bottom fw-bold  border-white">Nos offres</span>
+            <span class="border-bottom fw-bold border-white">Nos offres</span>
         </h3>
         <p class="fs-5">
             Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de votre
