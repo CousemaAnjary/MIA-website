@@ -1,17 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100">
+    <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
             <img src="{{ asset('images/logo.png') }}" alt="MIA" width="100">
         </a>
 
-        <!-- Bouton Toggle pour Mobile -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Bouton pour le menu mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Liens du Menu -->
+        <!-- Liens du menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
