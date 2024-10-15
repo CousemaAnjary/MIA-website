@@ -39,7 +39,7 @@
                         'price' => '1750€',
                         'title' => '1 binôme senior + junior :',
                         'description' => ['Traitement et révision', 'Français excellent', 'Rapport d\'activité inclus'],
-                        'featured' => true,
+                        'featured' => false,
                     ],
                     [
                         'name' => 'DIAMOND',
