@@ -1,27 +1,26 @@
 <div class="text-white py-5" style="background-color: #03224c">
     <!-- Conteneur start -->
-    <div class="container text-start mb-5">
+    <div class="container text-start mb-5" data-aos="fade-left">
         <!-- Titre de la section -->
         <h3 class="text-uppercase fw-bold mb-4">
             <span class="border-bottom fw-bold border-white pb-1">Nos missions</span>
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic">
-           " Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut "
+            " Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut "
         </p>
-        {{-- <p class="lead">Découvrez les missions comptables, fiscales et administratives que nous offrons à nos clients</p> --}}
     </div>
 
     <!-- Grille des missions -->
     <div class="container">
         <div class="row g-4">
             <!-- Missions comptables -->
-            <div class="col-md-4 mb-4 ">
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
                 <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
                     <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/comptable.png') }}" alt="" class="mx-auto w-25 mb-3">
                         <h5 class="card-title fw-bold text-white">Missions comptables</h5>
                     </div>
-                    <div class="card-body ">
+                    <div class="card-body">
                         <ul>
                             <li>Tenue complète de la comptabilité :
                                 <ul>
@@ -40,11 +39,11 @@
             </div>
 
             <!-- Missions fiscales -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
                 <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
                     <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/tax.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title fw-bold  text-white">Missions fiscales</h5>
+                        <h5 class="card-title fw-bold text-white">Missions fiscales</h5>
                     </div>
                     <div class="card-body">
                         <ul>
@@ -59,11 +58,11 @@
             </div>
 
             <!-- Missions administratives -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
                 <div class="card h-100 border-1 border-white rounded-lg" style="background: transparent">
                     <div class="card-header text-center border rounded-top">
                         <img src="{{ asset('images/admin.png') }}" alt="" class="mx-auto w-25 mb-3">
-                        <h5 class="card-title text-dark fw-bold text-white">Missions administratives</h5>
+                        <h5 class="card-title fw-bold text-white">Missions administratives</h5>
                     </div>
                     <div class="card-body">
                         <ul>

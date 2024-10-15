@@ -1,14 +1,13 @@
-<div class="text-white py-5" style="background-color: #03224c">
+<div class="text-white py-5" style="background-color: #03224c" >
     <!-- Titre de la section -->
-    <div class="container">
+    <div class="container" data-aos="fade-right">
         <h3 class="text-uppercase  mb-4">
             <span class="border-bottom fw-bold border-white">Nos offres</span>
         </h3>
-        <p class="text-white fw-medium fs-5 fst-italic">
+        <p class="text-white fw-medium fs-5 fst-italic" data-aos="fade-right">
             " Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de votre
             grandeur "
         </p>
-
     </div>
 
     <!-- Grille des offres -->
@@ -57,7 +56,7 @@
             @endphp
 
             @foreach ($tiers as $tier)
-                <div class="col-md-6 mb-4" >
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="{{ $loop->index * 100 }}">
                     <div class="card h-100 border {{ $tier['featured'] ? 'border-warning' : '' }}" style="background: transparent">
                         <div class="card-body">
                             <h4 class="card-title ">{{ $tier['name'] }}</h4>
@@ -89,7 +88,7 @@
     </div>
 
     <!-- Note supplémentaire -->
-    <p class="mt-5 text-center">
+    <p class="mt-5 text-center" data-aos="fade-up">
         1 collaborateur peut absorber 30 à 60 dossiers <br>
         Licence et logiciel à la charge du client
     </p>

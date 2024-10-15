@@ -29,11 +29,11 @@
                             placeholder="Votre email" required style="background: transparent">
                     </div>
 
-                    <div class="mb-4">
+                    {{-- <div class="mb-4">
                         <label for="subject" class="form-label fw-bold">Objet</label>
                         <input type="text" class="form-control shadow-sm rounded text-white" id="subject" name="subject"
                             placeholder="Objet" required style="background: transparent">
-                    </div>
+                    </div> --}}
 
                     <div class="mb-4">
                         <label for="message" class="form-label fw-bold text-white">Message</label>
