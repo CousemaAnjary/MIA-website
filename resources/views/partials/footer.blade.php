@@ -60,7 +60,7 @@
         <!-- Copyright Section -->
         <div class="border-top border-light pt-3">
             <p class="text-center text-light mb-0" style="font-size: 0.875rem;">
-                © 2024 Mi-Assiste. Tous droits réservés.
+                © 2024 MIA. Tous droits réservés.
             </p>
         </div>
     </div>

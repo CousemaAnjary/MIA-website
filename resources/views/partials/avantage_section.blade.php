@@ -1,7 +1,7 @@
-<div class="text-white py-5" style="background-color: #03224c">
+<div class="text-white py-5" style="background-color: #03224c" >
     <div class="container">
         <!-- Section Title -->
-        <div class="container text-start mb-5">
+        <div class="container text-start mb-5" data-aos="fade-right">
             <!-- Titre de la section -->
             <h3 class="text-uppercase mb-4">
                 <span class="border-bottom fw-bold border-white">Nos avantages</span>
@@ -14,14 +14,14 @@
 
         <!-- Grid of Advantages - Two Columns -->
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="card h-100 shadow border" style="background: transparent">
                     <div class="card-body">
                         <div class="mb-3">
                             <i class="fas fa-lightbulb fa-3x text-primary"></i> 
                         </div>
                         <h4 class="card-title fw-bold text-primary">Une organisation adaptée à la vôtre</h4>
-                        <ul >
+                        <ul>
                             <li>Réception et contrôle des pièces</li>
                             <li>Traitement et demande des pièces manquantes</li>
                             <li>Traitement du dossier</li>
@@ -33,14 +33,14 @@
                 </div>
             </div>
 
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="card h-100 shadow border" style="background: transparent">
                     <div class="card-body">
                         <div class="mb-3">
                             <i class="fas fa-euro-sign fa-3x text-success"></i>
                         </div>
                         <h4 class="card-title fw-bold text-success">Des coûts compétitifs</h4>
-                        <p class=" mt-4">
+                        <p class="mt-4">
                             Nos différentes formules vous permettent de réduire vos coûts en matière de charges sociales
                             (salaire, recrutement).
                         </p>
@@ -48,14 +48,14 @@
                 </div>
             </div>
 
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="card h-100 shadow border" style="background: transparent">
                     <div class="card-body">
                         <div class="mb-3">
                             <i class="fas fa-users fa-3x text-info"></i>
                         </div>
                         <h4 class="card-title fw-bold text-info">Un partenaire proche de vous</h4>
-                        <p class=" mt-4">
+                        <p class="mt-4">
                             Une équipe francophone disponible, qualifiée, flexible, à l'écoute de la moindre de vos
                             demandes.
                         </p>
@@ -63,14 +63,14 @@
                 </div>
             </div>
 
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="card h-100 shadow border" style="background: transparent">
                     <div class="card-body">
                         <div class="mb-3">
                             <i class="fas fa-handshake fa-3x text-warning"></i>
                         </div>
                         <h4 class="card-title fw-bold text-warning">Une entreprise engagée</h4>
-                        <p class=" mt-4">
+                        <p class="mt-4">
                             Une société qui favorise l'insertion/réinsertion professionnelle des jeunes diplômés et
                             jeunes parents.
                         </p>

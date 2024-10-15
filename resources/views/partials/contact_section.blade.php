@@ -1,7 +1,7 @@
-<div class=" text-white py-5" style="background-color: #03224c">
+<div class="text-white py-5" style="background-color: #03224c">
     <div class="container">
         <!-- Section Title -->
-        <div class="container text-start mb-5">
+        <div class="container text-start mb-5" data-aos="fade-right">
             <!-- Titre de la section -->
             <h3 class="text-uppercase mb-4">
                 <span class="border-bottom fw-bold border-white">Contactez-nous</span>
@@ -14,7 +14,7 @@
         <!-- Contact Form and Contact Info -->
         <div class="row">
             <!-- Contact Form -->
-            <div class="col-md-6 mb-5">
+            <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <form method="POST" action="/send-email">
                     @csrf <!-- Laravel directive for CSRF protection -->
                     <div class="mb-4">
@@ -46,12 +46,12 @@
             </div>
 
             <!-- Contact Information -->
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="row">
                     <!-- Technical Support -->
-                    <div class="col-md-6 mb-4">
+                    <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-delay="300">
                         <div class="d-flex align-items-start">
-                            <div class=" text-white rounded-circle p-3 shadow-sm" style="background-color: #002c69">
+                            <div class="text-white rounded-circle p-3 shadow-sm" style="background-color: #002c69">
                                 <i class="fas fa-phone fa-lg"></i>
                             </div>
                             <div class="ms-3">
@@ -62,9 +62,9 @@
                     </div>
 
                     <!-- Sales Inquiries -->
-                    <div class="col-md-6 mb-4">
+                    <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-delay="400">
                         <div class="d-flex align-items-start">
-                            <div class=" text-white rounded-circle p-3 shadow-sm" style="background-color: #002c69">
+                            <div class="text-white rounded-circle p-3 shadow-sm" style="background-color: #002c69">
                                 <i class="fas fa-envelope fa-lg"></i>
                             </div>
                             <div class="ms-3">
@@ -73,9 +73,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Press Inquiries -->
-                    
                 </div>
             </div>
         </div>
