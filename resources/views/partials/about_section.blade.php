@@ -25,6 +25,7 @@
             </p>
         </div>
 
+        
         <!-- Image -->
         <div class="col-md-6 mt-4 mt-md-0" data-aos="fade-right">
             <img src="{{ asset('images/logo.png') }}" alt="À propos de MIA" class="img-fluid rounded">
