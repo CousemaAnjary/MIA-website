@@ -74,8 +74,8 @@
                             Une société qui favorise l'insertion/réinsertion professionnelle des jeunes diplômés et
                             jeunes parents.
                         </p>
-                        <p class="fw-bold">Membre du groupe</p>
-                        <img src="{{ asset('images/image4.png') }}" alt="Delegacompta logo" class="img-fluid w-50 mt-2">
+                        <p class="fw-bold fs-5">Membre du groupe mondelegapartenaire</p>
+                        {{-- <img src="{{ asset('images/image4.png') }}" alt="Delegacompta logo" class="img-fluid w-50 mt-2"> --}}
                     </div>
                 </div>
             </div>

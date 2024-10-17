@@ -17,14 +17,14 @@
             @php
                 $tiers = [
                     [
-                        'name' => 'BRONZE',
+                        'name' => 'BASIC',
                         'price' => '800€',
                         'title' => '1 collaborateur junior :',
                         'description' => ['Saisie et traitement', 'Nécessite une révision au bout', 'Français moyen'],
                         'featured' => false,
                     ],
                     [
-                        'name' => 'SILVER',
+                        'name' => 'CLASSIC',
                         'price' => '1200€',
                         'title' => '1 collaborateur senior niveau intermédiaire :',
                         'description' => [
@@ -35,14 +35,14 @@
                         'featured' => false,
                     ],
                     [
-                        'name' => 'GOLD',
+                        'name' => 'STRATEGIC',
                         'price' => '1750€',
                         'title' => '1 binôme senior + junior :',
                         'description' => ['Traitement et révision', 'Français excellent', 'Rapport d\'activité inclus'],
                         'featured' => false,
                     ],
                     [
-                        'name' => 'DIAMOND',
+                        'name' => 'MAGIC',
                         'price' => 'Sur devis',
                         'description' => [
                             'Personnalisé selon vos besoins',
