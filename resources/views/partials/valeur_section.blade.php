@@ -4,7 +4,7 @@
         <div class="container text-start mb-5" data-aos="fade-right">
             <!-- Titre de la section -->
             <h3 class="text-uppercase mb-4">
-                <span class="border-bottom fw-bold border-white">Nos valeurs</span>
+                <span class="border-bottom fw-bold border-white"><i class="fas fa-hands-helping"></i> Nos valeurs</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic">
                 " Vous méritez un partenaire fiable pour sous-traiter vos missions comptables <br> et ainsi offrir à vos

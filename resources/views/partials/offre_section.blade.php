@@ -2,7 +2,7 @@
     <!-- Titre de la section -->
     <div class="container" data-aos="fade-right">
         <h3 class="text-uppercase  mb-4">
-            <span class="border-bottom fw-bold border-white">Nos offres</span>
+            <span class="border-bottom fw-bold border-white"><i class="fas fa-gift"></i> Nos offres</span>
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic" data-aos="fade-right">
             " Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de

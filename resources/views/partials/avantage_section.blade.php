@@ -4,7 +4,7 @@
         <div class="container text-start mb-5" data-aos="fade-right">
             <!-- Titre de la section -->
             <h3 class="text-uppercase mb-4">
-                <span class="border-bottom fw-bold border-white">Nos avantages</span>
+                <span class="border-bottom fw-bold border-white"><i class="fas fa-check-circle"></i> Nos avantages</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic">
                 " Vous méritez que vos rêves grandissent et que votre cabinet fleurisse, confiez-nous <br> une partie de

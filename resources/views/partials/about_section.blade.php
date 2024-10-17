@@ -3,7 +3,7 @@
         <!-- Texte -->
         <div class="col-md-6" data-aos="fade-left">
             <h3 class="text-uppercase mb-4">
-                <span class="border-bottom fw-bold border-white pb-1">À propos de nous</span>
+                <span class="border-bottom fw-bold border-white pb-1"><i class="fas fa-info-circle"></i> À propos de nous</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic" data-aos="fade-left">
                 " Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression "

@@ -3,7 +3,7 @@
     <div class="container text-start mb-5" data-aos="fade-left">
         <!-- Titre de la section -->
         <h3 class="text-uppercase fw-bold mb-4">
-            <span class="border-bottom fw-bold border-white pb-1">Nos missions</span>
+            <span class="border-bottom fw-bold border-white pb-1"><i class="fas fa-tasks"></i> Nos missions</span>
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic">
             " Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut "
