@@ -6,8 +6,7 @@
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic" data-aos="fade-right">
             " Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de
-            votre
-            grandeur "
+            votre grandeur "
         </p>
     </div>
 
@@ -22,12 +21,11 @@
                         'price' => '850€',
                         'title' => '1 collaborateur niveau junior :',
                         'description' => ['Tenue comptable (saisie, révision, lettrage, rapprochement bancaire)'],
-
                         'featured' => false,
                     ],
                     [
                         'name' => 'CLASSIC',
-                        'price' => '1200€',
+                        'price' => '',
                         'title' => '1 collaborateur niveau senior :',
                         'description' => [
                             'Tenue comptable (saisie, révision, lettrage, rapprochement bancaire)',
@@ -37,19 +35,20 @@
                     ],
                     [
                         'name' => 'STRATEGIC',
-                        'price' => '1750€',
+                        'price' => '',
                         'title' => '1 binôme senior + junior :',
-                        'description' => ['Tenue comptable (saisie, révision, lettrage, rapprochement bancaire)', 'Fiscalité (préparation de la TVA, situation/bilan, préparation de la liasse fiscale)', 'Rapport d activité (listing pièces manquantes, points en suspens, différents contrôle dans un fichier Excel)'],
-                        'featured' => false,
+                        'description' => [
+                            'Tenue comptable (saisie, révision, lettrage, rapprochement bancaire)',
+                            'Fiscalité (préparation de la TVA, situation/bilan, préparation de la liasse fiscale)',
+                            'Rapport d\'activité (listing pièces manquantes, points en suspens, différents contrôles dans un fichier Excel)'
+                        ],
+                        'featured' => true,
                     ],
                     [
                         'name' => 'MAGIC',
-                        'price' => 'Sur devis',
+                        'price' => 'Personnalisé et sur mesure',
                         'description' => [
-                            'Personnalisé et sur mesure',
-                            // 'Équipe dédiée',
-                            // 'Support prioritaire',
-                            // 'Solutions sur mesure',
+                            // 'Personnalisé et sur mesure',
                         ],
                         'featured' => false,
                     ],
@@ -58,20 +57,19 @@
 
             @foreach ($tiers as $tier)
                 <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="{{ $loop->index * 100 }}">
-                    <div class="card h-100 border {{ $tier['featured'] ? 'border-warning' : '' }}"
-                        style="background: transparent">
+                    <div class="card h-100 border {{ $tier['featured'] ? 'border-warning' : '' }}" style="background: transparent; position: relative;">
                         <div class="card-body">
-                            <h4 class="card-title ">{{ $tier['name'] }}</h4>
+                            <h4 class="card-title fw-bold">{{ $tier['name'] }}</h4>
 
                             @if ($tier['featured'])
-                                <span class="badge bg-warning text-dark position-absolute" style="top: 20px;">Best
-                                    seller</span>
+                                <!-- Le badge Best Seller est maintenant bien positionné et responsive -->
+                                <span class="badge bg-warning text-dark position-absolute" style="top: 20px; right: 20px;">Best Seller</span>
                             @endif
 
-                            <p class="mt-3 display-4 fw-bold ">{{ $tier['price'] }}</p>
+                            <p class="mt-3 display-4 fw-semibold ">{{ $tier['price'] }}</p>
 
                             @if (isset($tier['title']))
-                                <p class="mt-4 fw-bold ">{{ $tier['title'] }}</p>
+                                <p class="mt-4 fw-bold">{{ $tier['title'] }}</p>
                             @endif
 
                             <ul class="list-unstyled mt-4">
