@@ -34,7 +34,7 @@
             @include('partials.avantage_section')
 
             {{-- Section contact --}}
-            @include('partials.contact_section')
+            {{-- @include('partials.contact_section') --}}
 
         </main>
 
