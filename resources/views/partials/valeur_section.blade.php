@@ -7,8 +7,8 @@
                 <span class="border-bottom fw-bold border-white"><i class="fas fa-hands-helping"></i> Nos valeurs</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic">
-                " Vous méritez un partenaire fiable pour sous-traiter vos missions comptables <br> et ainsi offrir à vos
-                clients un accompagnement irréprochable "
+                Vous méritez un partenaire fiable pour sous-traiter vos missions comptables <br> et ainsi offrir à vos
+                clients un accompagnement irréprochable
             </p>
         </div>
 

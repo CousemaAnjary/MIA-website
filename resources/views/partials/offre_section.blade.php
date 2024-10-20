@@ -5,8 +5,8 @@
             <span class="border-bottom fw-bold border-white"><i class="fas fa-gift"></i> Nos offres</span>
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic" data-aos="fade-right">
-            " Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de
-            votre grandeur "
+            Vous méritez l'efficacité, laissez-nous vous aider avec rigueur, et ensemble, <br> bâtissons l'avenir de
+            votre grandeur
         </p>
     </div>
 

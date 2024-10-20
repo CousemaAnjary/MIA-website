@@ -6,7 +6,7 @@
                 <span class="border-bottom fw-bold border-white pb-1"><i class="fas fa-info-circle"></i> À propos de nous</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic" data-aos="fade-left">
-                " Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression "
+                Vous méritez la tranquillité sans perdre en qualité. Laissez-nous vous aider et vivez sans pression
             </p>
             <p class="mb-4" style="color: #b1b1b1;">
                 MIA, diminutif de Mi-Assiste, est une société basée à Madagascar qui propose des services de

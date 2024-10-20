@@ -6,7 +6,7 @@
             <span class="border-bottom fw-bold border-white pb-1"><i class="fas fa-tasks"></i> Nos missions</span>
         </h3>
         <p class="text-white fw-medium fs-5 fst-italic">
-            " Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut "
+            Vous méritez d'être libéré du fardeau pour que votre cabinet aille encore plus haut
         </p>
     </div>
 

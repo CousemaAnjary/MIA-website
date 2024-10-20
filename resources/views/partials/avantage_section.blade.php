@@ -7,8 +7,8 @@
                 <span class="border-bottom fw-bold border-white"><i class="fas fa-check-circle"></i> Nos avantages</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic">
-                " Vous méritez que vos rêves grandissent et que votre cabinet fleurisse, confiez-nous <br> une partie de
-                l'organisation et retrouvez votre passion "
+                Vous méritez que vos rêves grandissent et que votre cabinet fleurisse, confiez-nous <br> une partie de
+                l'organisation et retrouvez votre passion
             </p>
         </div>
 

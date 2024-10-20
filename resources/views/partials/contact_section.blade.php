@@ -7,7 +7,7 @@
                 <span class="border-bottom fw-bold border-white">Contactez-nous</span>
             </h3>
             <p class="text-white fw-medium fs-5 fst-italic">
-                " Votre client mérite votre temps, laissez-nous vous aider avec rigueur et discrétion "
+                Votre client mérite votre temps, laissez-nous vous aider avec rigueur et discrétion
             </p>
         </div>
 
