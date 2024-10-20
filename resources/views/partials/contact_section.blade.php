@@ -20,7 +20,7 @@
                     <div class="mb-4">
                         <label for="name" class="form-label fw-bold">Nom Complet</label>
                         <input type="text" class="form-control shadow-sm rounded text-white" id="name" name="name"
-                            placeholder="Votre nom" required style="background: transparent">
+                            placeholder="Votre nom complet" required style="background: transparent">
                     </div>
 
                     <div class="mb-4">
