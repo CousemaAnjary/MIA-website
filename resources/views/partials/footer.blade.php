@@ -38,7 +38,7 @@
             </div>
 
             <!-- Section Réseaux sociaux -->
-            {{-- <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 mb-4">
                 <h5 class="text-uppercase fw-bold mb-3">Suivez-nous</h5>
                 <div class="d-flex gap-4">
                     <a href="#" class="text-white mr-3" style="font-size: 1.5rem; transition: all 0.3s;">
@@ -54,7 +54,7 @@
                 <p class="mt-3 text-light">
                     Suivez-nous sur les réseaux sociaux pour plus d'informations.
                 </p>
-            </div> --}}
+            </div>
         </div>
 
         <!-- Copyright Section -->

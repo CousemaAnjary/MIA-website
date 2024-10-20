@@ -37,7 +37,7 @@
 
                     <div class="mb-4">
                         <label for="message" class="form-label fw-bold text-white">Message</label>
-                        <textarea class="form-control shadow-sm rounded" id="message" name="message" rows="4"
+                        <textarea class="form-control shadow-sm rounded text-white" id="message" name="message" rows="4"
                             placeholder="Votre message" required style="background: transparent"></textarea>
                     </div>
 
