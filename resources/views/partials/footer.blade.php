@@ -1,8 +1,8 @@
 <footer class="bg-dark text-white py-5">
     <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-3">
             <!-- Section Logo et Description -->
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 ">
                 <div class="text-center text-lg-start">
                     <img src="{{ asset('images/logo.png') }}" alt="Logo" class="mb-3" style="width: 150px;">
                     <p class="text-start text-muted">
@@ -13,7 +13,7 @@
             </div>
 
             <!-- Section Contact -->
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 ">
                 <h5 class="text-uppercase fw-bold fs-4 mb-3 text-warning py-2 px-3"
                     style="border-bottom: 3px solid #ffc107; border-radius: 5px;">
                     Dossier test gratuit - sans engagement
@@ -43,7 +43,7 @@
             </div>
 
             <!-- Section Subscription Form -->
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 ">
                 <h5 class="text-uppercase fw-bold">Contactez-nous</h5>
                 <small class="text-muted d-block mb-3">réservez votre call découverte sans engagement de 30 mn
                     écrivez - nous pour plus d'informations
@@ -53,7 +53,6 @@
                         aria-label="Email address">
                     <button class="btn btn-primary ms-2" type="submit">Envoyer</button>
                 </form>
-
             </div>
         </div>
     </div>

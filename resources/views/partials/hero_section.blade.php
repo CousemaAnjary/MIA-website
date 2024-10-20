@@ -1,7 +1,7 @@
 <div class="container d-flex flex-column justify-content-center align-items-start h-100 text-start text-white" data-aos="fade-right">
     <h1 class="display-4 font-weight-bold mb-4" data-aos="zoom-in">
         Nous déléguer une partie de vos activités, <br> c'est gagner du temps pour mieux accompagner vos précieux
-        clients.
+        clients
     </h1>
     <p class="text-white fst-italic fs-5" data-aos="fade-up">
         Vous méritez l'excellence sans négliger la prudence. Laissez-nous vous aider avec toute notre compétence.
