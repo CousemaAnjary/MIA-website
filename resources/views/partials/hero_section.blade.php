@@ -7,10 +7,10 @@
         Vous méritez l'excellence sans négliger la prudence. Laissez-nous vous aider avec toute notre compétence.
     </p>
     <div class="mt-4 d-flex flex-column flex-md-row justify-content-start gap-3" data-aos="fade-up">
-        <a href="#" class="btn btn-lg text-white" style="background-color: #002c69">
+        <a href="#offre-section" class="btn btn-lg text-white" style="background-color: #002c69">
             <i class="fas fa-gift"></i> Nos offres
         </a>
-        <a href="#" class="btn btn-outline-light btn-lg">
+        <a href="#about-us-section" class="btn btn-outline-light btn-lg">
             En Savoir Plus
         </a>
     </div>
