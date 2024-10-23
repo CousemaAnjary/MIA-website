@@ -1,4 +1,4 @@
-<div class="text-white py-5" style="background-color: #03224c">
+<div class="text-white py-5" id="offre-section" style="background-color: #03224c">
     <!-- Titre de la section -->
     <div class="container" data-aos="fade-right">
         <h3 class="text-uppercase  mb-4">

@@ -1,4 +1,4 @@
-<div class="about-section py-5 text-white" style="background-color: #03224c">
+<div class="about-section py-5 text-white" id="about-us-section" style="background-color: #03224c">
     <div class="container d-flex flex-column flex-md-row align-items-center gap-5">
         <!-- Texte -->
         <div class="col-md-6" data-aos="fade-left">
