@@ -1,4 +1,62 @@
 body,
 html {
     overflow-x: hidden;
+    
+}
+
+/* Pour rendre la navigation collante */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8); 
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour le menu mobile */
+.navbar-toggler {
+    border: none; /* Enlève la bordure par défaut du bouton */
+}
+
+.navbar-toggler-icon {
+    color: white; /* Assure que l'icône est toujours visible */
+}
+
+/* Style des liens dans le menu */
+.nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+.nav-link i {
+    margin-right: 5px; /* Ajoute de l'espace entre les icônes et le texte */
+}
+
+/* Responsive: Sur petits écrans, espacer les éléments du menu */
+@media (max-width: 992px) {
+    .nav-item {
+        text-align: center;
+    }
+    
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.9); /* Fond pour le menu déroulant sur mobile */
+        padding: 20px;
+    }
+}
+
+/* Mobile: Espacement entre les éléments dans le menu */
+@media (max-width: 576px) {
+    .nav-item {
+        margin-bottom: 10px;
+    }
+    
+    .navbar-brand {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .nav-link {
+        font-size: 1.2rem; /* Augmente la taille du texte pour plus de lisibilité */
+    }
 }
